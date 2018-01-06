@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="qdreamer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tobot/libs/qdreamer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

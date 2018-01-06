@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TingPhoneOpenSDK_5.5.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tobot/libs/TingPhoneOpenSDK_5.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

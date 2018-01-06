@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    }
+]

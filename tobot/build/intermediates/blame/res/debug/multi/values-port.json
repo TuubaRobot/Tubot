@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "H:\\androidWork\\Tubot-5.1-official\\tobot\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\values-port\\values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
+    }
+]
