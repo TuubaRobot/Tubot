@@ -571,7 +571,6 @@ public class SongScenario implements IScenario {
                         currentVolumeLevel=audioUtils.getCurrentVolume();
                         Log.d(TAG, "currentVolumeLevel: "+currentVolumeLevel);
                     }
-
                 } catch (IllegalStateException e) {
 
                 }
@@ -598,17 +597,7 @@ public class SongScenario implements IScenario {
         scenarioRuntimeConfig.allowDefaultChat = false;
         scenarioRuntimeConfig.interruptMatchMode = scenarioRuntimeConfig.INTERRUPT_CMD_MATCH_MODE_FUZZY;
         //为场景添加打断语，asr 识别到打断语时将产生打断事件，回调到场景的onUserInterrupted() 方法。
-        scenarioRuntimeConfig.addInterruptCmd("暂停");
-        scenarioRuntimeConfig.addInterruptCmd("继续");
-        scenarioRuntimeConfig.addInterruptCmd("不想听了");
-        scenarioRuntimeConfig.addInterruptCmd("好了");
-        scenarioRuntimeConfig.addInterruptCmd("可以了");
-//        scenarioRuntimeConfig.addInterruptCmd("快进");
-//        scenarioRuntimeConfig.addInterruptCmd("前进");
-        scenarioRuntimeConfig.addInterruptCmd("退出");
-        scenarioRuntimeConfig.addInterruptCmd("推出");
-        scenarioRuntimeConfig.addInterruptCmd("你好小图");
-        //mohuaiyuan 20180104 原来的代码
+
         scenarioRuntimeConfig.addInterruptCmd("大声点");
         scenarioRuntimeConfig.addInterruptCmd("小声点");
         scenarioRuntimeConfig.addInterruptCmd("大点声");
@@ -703,13 +692,16 @@ public class SongScenario implements IScenario {
                     public void onCompleted() {
                         Log.d(TAG, "tts onCompleted: ");
                         //开始播放音频
-                        getMediaPlayer().start();
-                        songDuration=getMediaPlayer().getDuration();
-                        Log.d(TAG, "duration: "+songDuration);
-                        if (isWithAction){
-                            doAction();
-                        }
+                        try{
+                            getMediaPlayer().start();
+                            songDuration=getMediaPlayer().getDuration();
+                            Log.d(TAG, "duration: "+songDuration);
+                            if (isWithAction){
+                                doAction();
+                            }
+                        }catch (NullPointerException e){
 
+                        }
                     }
 
                     @Override

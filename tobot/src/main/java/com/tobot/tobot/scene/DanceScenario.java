@@ -296,7 +296,6 @@ public class DanceScenario implements IScenario{
 //                        mediaPlayer.seekTo(Integer.parseInt(isNum.replaceAll("").trim()) * speed);
 //                    }
 //                }
-
                     //mohuaiyuan 20180104 原来的代码
                     if (interrupt.contains("大声点")
                             || interrupt.contains("大点声")

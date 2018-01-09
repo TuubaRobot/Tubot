@@ -4,6 +4,7 @@
     <string name="title_activity_awaken">AwakenActivity</string>
 
 
+
     <!--#########################################   网络 network #################################################################################-->
 
     <string name="Connection_First">机器人首次使用中,还未连接网络,请下载客户端根据说明帮我连接网络</string>
@@ -51,6 +52,7 @@
 
     <!--##########################################################################################################################-->
 
+
     <string name="Mend_Error">如果你能改正错误,我们还是好朋友</string>
 
     <string name="voice0">小子,你再摸下试试</string>
@@ -64,11 +66,13 @@
     <string name="voice8">摸人家头是很不礼貌的</string>
     <string name="voice9">找俺啥事</string>
 
+
     <!-- &lt;!&ndash; 声音提示语句   &ndash;&gt;
      <string name="raiseMusicVolume">好的 ，我声音大点</string>
      <string name="lowerMusicVolume">嗯，我小声点</string>
      <string name="minMusicVolume">已经是最小声了哦</string>
      <string name="maxMusicVolume">已经是最大声了哦</string>-->
+
 
     <!-- 音乐场景 提示语句   -->
     <string name="noExistMusic">抱歉，这首歌我暂时不会唱，要不你换一首吧</string>

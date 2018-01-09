@@ -27,7 +27,7 @@ public class InterruptTTSCallback extends BaseTTSCallback {
     @Override
     public void onStart(String s) {
         Log.i(TAG ,"开始语音播报TTS:"+s);
-        mainActivity.Interrupt(true);
+        BFrame.isInterrupt = true;
 
         if (mBaseTTSCallback!=null){
             mBaseTTSCallback.onStart(s);
@@ -37,7 +37,7 @@ public class InterruptTTSCallback extends BaseTTSCallback {
 
     @Override
     public void onPaused() {
-        mainActivity.Interrupt(false);
+        BFrame.isInterrupt = true;
 
         if (mBaseTTSCallback!=null){
             mBaseTTSCallback.onPaused();
@@ -47,7 +47,7 @@ public class InterruptTTSCallback extends BaseTTSCallback {
 
     @Override
     public void onResumed() {
-        mainActivity.Interrupt(true);
+        BFrame.isInterrupt = true;
 
         if (mBaseTTSCallback!=null){
             mBaseTTSCallback.onResumed();
@@ -57,7 +57,7 @@ public class InterruptTTSCallback extends BaseTTSCallback {
 
     @Override
     public void onCompleted() {
-        mainActivity.Interrupt(false);
+        BFrame.isInterrupt = true;
 
         if (mBaseTTSCallback!=null){
             mBaseTTSCallback.onCompleted();

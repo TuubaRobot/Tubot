@@ -4,6 +4,7 @@ import android.content.Context;
 import android.media.AudioManager;
 
 /**
+
  * Created by mohuaiyuan  on 2017/11/29.
  */
 
@@ -29,7 +30,7 @@ public class AudioUtils {
     private static MinVolumeListener minVolumeListener;
     private static VolumeLegalListener volumeLegalListener;
     private static VolumeCopyListener volumeCopyListener;
-
+	
     public AudioUtils(Context context){
         this.mContext=context;
         getManager();
@@ -112,6 +113,7 @@ public class AudioUtils {
 
     public int setMinVolume(){
         //设置音量：当前音量已经是最小的了
+
         if (getMinVolume() == getCurrentVolume()){
             errorCode=CURRENT_LEVEL_IS_MIN_VOLUME_LEVEL;
             return errorCode;
@@ -143,6 +145,7 @@ public class AudioUtils {
             return errorCode;
         }
         //设置音量：当前音量已经是最小的了
+
         if (getMinVolume() ==getCurrentVolume()){
             errorCode=CURRENT_LEVEL_IS_MIN_VOLUME_LEVEL;
             return errorCode;
@@ -156,6 +159,7 @@ public class AudioUtils {
      * @return :
      */
     public boolean isLegal(int volumeLevel){
+
         if (volumeLegalListener!=null){
             return volumeLegalListener.isLegal(volumeLevel);
         }else {
