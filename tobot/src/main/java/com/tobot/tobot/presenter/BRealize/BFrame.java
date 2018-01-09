@@ -650,7 +650,8 @@ public class BFrame implements IFrame {
      */
     public static void FallAsleep(){
         if (TobotUtils.isNotEmpty(mRobotFrameManager)){
-            Ear(EarActionCode.EAR_MOTIONCODE_1);//待机效果
+            //mohuaiyuan 20180106 原来的代码
+//            Ear(EarActionCode.EAR_MOTIONCODE_1);//待机效果
             mRobotFrameManager.sleep();
             //5.2 命令执行完成后需明确告诉框架，命令处理结束，否则无法继续进行主对话流程。
             new LocalCommandGather().onComplete();
@@ -659,7 +660,8 @@ public class BFrame implements IFrame {
 
     public static void Wakeup(){
         if (TobotUtils.isNotEmpty(mRobotFrameManager)) {
-            Ear(EarActionCode.EAR_MOTIONCODE_4);//启动效果
+            //mohuaiyuan 20180106 原来的代码
+//            Ear(EarActionCode.EAR_MOTIONCODE_4);//启动效果
             mRobotFrameManager.wakeup();
         }
     }

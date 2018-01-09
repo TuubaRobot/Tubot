@@ -60,7 +60,7 @@ public class Constants {
     public static final String  QVOICE_KEY = "3b0468a1-c0cd-3313-a648-49cd7210b984";
 
     public static final String  QVOICE_PATH = "/sdcard/qvoice/cfg";
-//    public static final String  QVOICE_MIC = "/sdcard/qvoice/mic.wav";
+    public static final String  QVOICE_MIC = "/sdcard/qvoice/mic.wav";
     public static final String  QVOICE_PARAMS = "bfio";//bfasr
 //    public static final String  QVOICE = "role=asr;cfg=/sdcard/qvoice/cldasr.bin;use_json=1;min_conf=1.9;timeout=3000";
     public static final String  QVOICE = "role=asr;cfg=/sdcard/qvoice/xasr/cfg;use_bin=0;use_json=1;min_conf=1.9;";//用asr2017.12.27

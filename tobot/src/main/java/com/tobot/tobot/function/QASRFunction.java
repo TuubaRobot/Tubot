@@ -13,6 +13,7 @@ import com.qdreamer.qvoice.QSession;
 import com.qdreamer.qvoice.QVoiceError;
 import com.tobot.tobot.Listener.TTSCallback;
 import com.tobot.tobot.MainActivity;
+import com.tobot.tobot.R;
 import com.tobot.tobot.base.Constants;
 import com.tobot.tobot.base.Frequency;
 import com.tobot.tobot.base.TobotApplication;
@@ -215,7 +216,14 @@ public class QASRFunction implements IASRFunction {
                     Log.d(TAG, "唤醒回调");
                     if (BFrame.robotState) {
                         BFrame.Interrupt();
-                        BFrame.TTS("我在");
+                        //mohuaiyuan 20180106 原来的代码
+//                        BFrame.TTS("我在");
+                        //mohuaiyuan 20180106 新的代码 20180106
+                        try {
+                            BFrame.response(R.string.wake_up_the_callback);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
                     }else{
                         BFrame.Wakeup();
                     }
@@ -292,7 +300,7 @@ public class QASRFunction implements IASRFunction {
                 default:
                     break;
             }
-//            deleteFile(new File(Constants.QVOICE_MIC));
+            deleteFile(new File(Constants.QVOICE_MIC));
             super.handleMessage(msg);
         }
     };

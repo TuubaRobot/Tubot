@@ -410,20 +410,45 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //                        BFrame.prevent = false;
                     } else {
                         Log("触摸--调侃聊天");
+                        Log.d("helloworld", "触摸--调侃聊天: ");
                         try {
                             long l = (System.currentTimeMillis() - exitTime);
                             if (l < 4000) {//连续点击
                                 Log("触摸--连续点击");
+                                Log.d("helloworld", "触摸--连续点击: ");
+
                                // onBle();
-								
-                                TobotUtils.getIPAddress(MainActivity.this);//播报ip
+                                //mohuaiyuan 20180106 原来的代码
+//                                TobotUtils.getIPAddress(MainActivity.this);//播报ip
 								
                                 //mohuaiyuan 20171228 新的代码 新增的代码
                                 exitTime = 0;
 
                                 //mohuaiyuan 20171220 新的代码 新增的代码
                                 MyTouchResponse myTouchResponse=new MyTouchResponse(mContext);
-                                mBFrame.response(myTouchResponse.doubleTouchHeadResponse());
+                                BFrame.response(myTouchResponse.doubleTouchHeadResponse());
+
+                                /*Map<String,String> map=null;
+                                try {
+                                    map=BFrame.getString(myTouchResponse.doubleTouchHeadResponse());
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+
+                                BaseTTSCallback baseTTSCallback=new BaseTTSCallback(){
+                                    @Override
+                                    public void onCompleted() {
+                                        TobotUtils.getIPAddress(mContext);//播报ip
+                                    }
+                                };
+                                BFrame.setInterruptTTSCallback(new InterruptTTSCallback(this,baseTTSCallback));
+
+                                try {
+                                    BFrame.responseWithCallback(map);
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }*/
+
 
                                 //mohuaiyuan 20180104 测试 获取音量
                                 //AudioUtils audioUtils=new AudioUtils(mContext);
@@ -437,6 +462,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
                             } else {
                                 Log("触摸--单击");
+                                Log.d("helloworld", "触摸--单击: ");
                                 exitTime = System.currentTimeMillis();
 
                                 //mohuaiyuan 20171220 原来的代码
@@ -734,6 +760,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
                     //mohuaiyuan 20180103 新的代码 20180103
                     mBFrame.response(R.string.the_network_is_broken);
                 } catch (Exception e) {
+                    Log.e(TAG, " 网络断了 ，重复性提示 出现 Exception e : "+e.getMessage());
                     e.printStackTrace();
                 }
             }
