@@ -75,16 +75,38 @@
 
 
     <!-- 音乐场景 提示语句   -->
-    <string name="noExistMusic">抱歉，这首歌我暂时不会唱，要不你换一首吧</string>
-    <string name="beforePlayMusic">即将播放</string>
+  <!--  <string name="noExistMusic">抱歉，这首歌我暂时不会唱，要不你换一首吧</string>
+    <string name="beforePlayMusic">即将播放</string>-->
 
     <!-- 故事场景 提示语句   -->
-    <string name="noExistStory">抱歉，我暂时不会讲这个故事，要不你换一个吧</string>
-    <string name="beforePlayStory">即将播报故事</string>
+   <!-- <string name="noExistStory">抱歉，我暂时不会讲这个故事，要不你换一个吧</string>
+    <string name="beforePlayStory">即将播报故事</string>-->
 
     <!-- 舞蹈场景 提示语句   -->
-    <string name="noExistDance">抱歉，我暂时不会这个表演，要不你换一个吧</string>
-    <string name="beforePlayDance">即将表演</string>
+    <!--<string name="noExistDance">抱歉，我暂时不会这个表演，要不你换一个吧</string>
+    <string name="beforePlayDance">即将表演</string>-->
+
+    <!--#########################################   音乐场景   #################################################################################-->
+
+    <!-- 音乐场景 提示语句   -->
+    <string name="noExistMusic">speech:糟糕，这首歌唱不出来了，要不我给你换一首吧。#,#action:93#,#earLightCircle:1</string>
+    <string name="beforePlayMusic">speech:好的，即将播放 %1$s#,#expression:desire#,#earLightCircle:8</string>
+    <string name="continuePlayMusic_response">speech:那我给你唱首 %1$s #,#expression:desire#,#earLightCircle:8</string>
+    <string name="playMusicInterrupt_response">earLightCircle:1</string>
+
+    <!--#########################################   故事场景   #################################################################################-->
+    <!-- 故事场景 提示语句   -->
+    <string name="noExistStory">speech:糟糕，这个故事我没学会，要不我给你换一个吧。#,#action:85#,#earLightCircle:1</string>
+    <string name="beforePlayStory">speech:好的，即将讲 %1$s 的故事#,#expression:desire#,#earLightCircle:8</string>
+    <string name="continuePlayStory_response">speech:那我给你讲个 %1$s 的故事#,#expression:desire#,#earLightCircle:8</string>
+    <string name="playStoryInterrupt_response">earLightCircle:1</string>
+
+    <!--#########################################   舞蹈场景   #################################################################################-->
+    <!-- 舞蹈场景 提示语句   -->
+    <string name="noExistDance">speech:糟糕，这个舞蹈我还没学会，要不我给你换一个吧。#,#action:93#,#earLightCircle:1</string>
+    <string name="beforePlayDance">speech:好的，即将表演 %1$s #,#expression:desire#,#earLightCircle:8</string>
+    <string name="continuePlayDance_response">speech:那我给你挑个 %1$s #,#expression:desire#,#earLightCircle:8</string>
+    <string name="playDanceInterrupt_response">earLightCircle:1</string>
 
 
     <!--#########################################   打断   #################################################################################-->
@@ -219,6 +241,12 @@
     <string name="maxMusicVolume">speech:已经是最大声了#,#action:89#,#earLightCircle:1</string>
     <string name="tuneToTheLoudest">speech:好的，已经调到最大声了</string>
     <string name="tuneToTheSmalleseVoice">speech:好的，已经调到最小声了</string>
+
+    <!--####################################    跟随 模式  ######################################################################-->
+    <!--跟随模式 启动 -->
+    <string name="beginFollowMode_response">speech:已进入跟随模式。#,#action:???#,#earLightCircle:10</string><!--动作不可用:行走准备动作-2 -->
+    <!--跟随模式 退出-->
+    <string name="endFollowMode_response">speech:已退出跟随模式#,#action:1#,#earLightCircle:1</string>
 
     <!--####################################    遥控模式  ######################################################################-->
     <string name="beginRemoteControlMode_response">speech:已进入遥控模式#,#earLightCircle:9</string>
