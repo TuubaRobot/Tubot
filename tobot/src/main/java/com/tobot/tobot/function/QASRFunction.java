@@ -45,7 +45,7 @@ public class QASRFunction implements IASRFunction {
     private static final String TAG = "Javen QASRFunction";
     private static final String TAG1 = "QASRFunction";
     private Context mContext;
-    private long session;
+    private static long session;
     private boolean start;
     private boolean init;
     private boolean asrInit;
@@ -56,10 +56,10 @@ public class QASRFunction implements IASRFunction {
     private String ASR;
     private QASREntity mQASREntity;
     private Gson gson = new Gson();
-    private QEngine asrEngine;
+    private static QEngine asrEngine;
     private MainActivity mainActivity;
     private String answer;
-    private QSession mQSession;
+    private static QSession mQSession;
 
 
     public QASRFunction(Context context) {
@@ -275,7 +275,16 @@ public class QASRFunction implements IASRFunction {
                     Log.d(TAG, "discernASR=======>: " + discernASR);
                     if (TobotUtils.isAwaken(discernASR)) {
                         BFrame.Interrupt();
-                        BFrame.TTS("我在");
+                        //mohuaiyuan 20180108 原来的代码
+//                        BFrame.TTS("我在");
+                        //mohuaiyuan 20180108 新的代码 20180108
+                        try {
+                            BFrame.response(R.string.wake_up_the_callback);
+                        } catch (Exception e) {
+                            Log.e(TAG, "tts 主人，我在！反馈 出现 Exception e: "+e.getMessage());
+                            e.printStackTrace();
+                        }
+
                         Log.i(TAG, "prevent and isInterrupt:" + BFrame.prevent+":"+BFrame.isInterrupt);
                     } else {
                     Log.i(TAG,"BFrame.prevent:"+BFrame.prevent);
@@ -300,7 +309,8 @@ public class QASRFunction implements IASRFunction {
                 default:
                     break;
             }
-            deleteFile(new File(Constants.QVOICE_MIC));
+            //mohuaiyuan 20180108 原来的代码  录音
+//            deleteFile(new File(Constants.QVOICE_MIC));
             super.handleMessage(msg);
         }
     };
@@ -342,6 +352,19 @@ public class QASRFunction implements IASRFunction {
                     }
                 }
             });
+        }
+    }
+
+
+    public static void close(){
+        Log.i(TAG,"关闭引擎");
+        if (asrEngine != null){
+            asrEngine.destory();
+        }
+        QModule.stop();
+        QModule.delete();
+        if (mQSession != null){
+            mQSession.exitSession(session);
         }
     }
 

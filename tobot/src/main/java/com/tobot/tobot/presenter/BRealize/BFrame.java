@@ -98,6 +98,11 @@ public class BFrame implements IFrame {
      */
     private LieDownAndSleep mLieDownAndSleep;
 
+    /**
+     * 音量控制
+     */
+    private VolumeControl volumeControl;
+
     private static BLocal mBLocal;
     private static BBattery mBBattery;
     private static BArmtouch mBArmtouch;
@@ -360,6 +365,7 @@ public class BFrame implements IFrame {
      * 音量控制
      */
     private void onAdjustVolume(){
+        volumeControl=new VolumeControl(mContent);
 
     }
 	
@@ -585,7 +591,7 @@ public class BFrame implements IFrame {
      * @param voice
      * @param mIttsCallback
      */
-    public static void ttsWithCallback(String voice,ITTSCallback mIttsCallback){
+    public static synchronized void ttsWithCallback(String voice,ITTSCallback mIttsCallback){
         Log.d(TAG, "ttsWithCallback: ");
         if (mIttsCallback==null){
             mIttsCallback=ittsCallback;
@@ -913,7 +919,7 @@ public class BFrame implements IFrame {
         //讲话
         String speech = dataMap.get(RESPONSE_SPEECH);
         if (speech != null && speech.length() > 0) {
-            TTS(speech);
+            ttsWithCallback(speech,null);
         }
         //动作
         String action = dataMap.get(RESPONSE_ACTION);

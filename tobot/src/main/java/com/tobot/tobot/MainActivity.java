@@ -295,8 +295,13 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                     //mohuaiyuan 20171226 新的代码 20171226
                                     //TODO 唤醒的地方
                                     Log.d("IDormant", "摸头唤醒 之后 回调: ");
-                                    dealAwakenBehavior();
-									
+                                    try {
+                                        dealAwakenBehavior();
+                                    } catch (Exception e) {
+                                        Log.e("IDormant", "摸头唤醒 之后 回调，出现Exception e : "+e.getMessage());
+                                        e.printStackTrace();
+                                    }
+
                                 }
                                 break;
                         }

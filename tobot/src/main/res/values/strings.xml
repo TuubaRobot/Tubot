@@ -37,7 +37,7 @@
     <!--未联网 (开机后联网失败提示)-->
     <string name="connect_network_failed_after_start_up">speech:未连接网络，请使用手机App帮我联网！#,#action:30#,#expression:disappointed#,#earLightCircle:6</string><!--表情：23-委屈可怜-->
     <!--超过10秒还未连上网络（使用过程断网）-->
-    <string name="the_network_is_broken">speech:网络断了，请摸头3S重新帮我联网！#,#action:30#,#expression:disappointed#,#earLightCircle:6</string><!--表情：23-委屈可怜-->
+    <string name="the_network_is_broken">speech:网络断了，请摸头3秒重新帮我联网！#,#action:30#,#expression:disappointed#,#earLightCircle:6</string><!--表情：23-委屈可怜-->
 
 
     <!--mohuaiyuan 20171220 原来的字符串-->
@@ -155,6 +155,14 @@
     <string name="lieDownAndSleep_awaken">speech:啊！我睡醒了，地板好冷，小图都快感冒了#,#action:11#,#expression:happys#,#earLightCircle:1</string><!--表情不可用：16-眨眼-->
 
     <!--####################################    拍照 photograph    ###################################################################################-->
+    <string-array name="photograph_keyWords_array">
+        <item>拍照</item>
+        <item>拍张照</item>
+        <item>给我拍张照</item>
+        <item>拍张照片</item>
+        <item>照个相</item>
+        <item>照相</item>
+    </string-array>
     <string name="photograph_response">speech:好的，请站在我前面，摆好姿势。一二三，茄子！#,#action:39#,#earLightCircle:1</string>
     <string name="photograph_success_response">speech:拍照成功，你可以到手机App查看照片啦！#,#action:1</string>
 
@@ -191,6 +199,10 @@
         <item>音量最小</item>
         <item>音量调到最大</item>
         <item>音量调到最小</item>
+
+        //mohuaiyuan  20180108 测试
+        <item>音量</item>
+        <item>声音</item>
 
     </string-array>
 

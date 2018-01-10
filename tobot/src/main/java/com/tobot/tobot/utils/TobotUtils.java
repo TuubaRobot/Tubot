@@ -469,7 +469,16 @@ public class TobotUtils {
                         for (Enumeration<InetAddress> enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements(); ) {
                             InetAddress inetAddress = enumIpAddr.nextElement();
                             if (!inetAddress.isLoopbackAddress() && inetAddress instanceof Inet4Address) {
-                                BFrame.TTS("本机当前IP地址为:"+inetAddress.getHostAddress());
+                                //mohuaiyuan 20180108 原来的代码
+//                                BFrame.TTS("本机当前IP地址为:"+inetAddress.getHostAddress());
+                                //mohuaiyuan 20180108 新的代码 20180108
+                                String speech="speech:本机当前IP地址为:"+inetAddress.getHostAddress();
+                                try {
+                                    BFrame.response(speech);
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+
                                 return inetAddress.getHostAddress();
                             }
                         }
