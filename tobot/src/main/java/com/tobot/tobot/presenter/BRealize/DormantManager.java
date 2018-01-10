@@ -52,9 +52,9 @@ public class DormantManager {
      */
     public    void sitDownAndSleepTrigger(){
         Log.d(TAG, "DormantManager sitDownAndSleepTrigger: 开启任务");
-        if (sitDownAndSleepTimeTask==null){
+//        if (sitDownAndSleepTimeTask==null){
             sitDownAndSleepTimeTask=new SitDownAndSleepTimeTask();
-        }
+//        }
 
         sitDownAndSleepTimer=new Timer(true);
         sitDownAndSleepTimer.schedule(sitDownAndSleepTimeTask,10*60*1000);//N分钟之后
