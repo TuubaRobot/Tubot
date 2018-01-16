@@ -13,6 +13,7 @@ import com.qdreamer.qvoice.QSession;
 import com.qdreamer.qvoice.QVoiceError;
 import com.tobot.tobot.Listener.TTSCallback;
 import com.tobot.tobot.MainActivity;
+import com.tobot.tobot.R;
 import com.tobot.tobot.base.Constants;
 import com.tobot.tobot.base.Frequency;
 import com.tobot.tobot.base.TobotApplication;
@@ -39,12 +40,13 @@ import java.util.List;
 
 import static com.turing123.robotframe.multimodal.action.Action.PRMTYPE_ANGLES;
 
-
 /**
  * Created by Javen on 2017/10/31.
  */
 
 public class QASRFunction implements IASRFunction {
+	
+//    private static final String TAG = "IDormant";
     private static final String TAG = "Javen QASRFunction";
     private static final String TAG1 = "QASRFunction";
     private Context mContext;
@@ -220,7 +222,15 @@ public class QASRFunction implements IASRFunction {
                     Log.d(TAG, "唤醒回调");
                     if (BFrame.robotState) {
                         BFrame.Interrupt();
-                        BFrame.TTS("我在");
+                        //mohuaiyuan 20180106 原来的代码
+//                        BFrame.TTS("我在");
+                        //mohuaiyuan 20180106 新的代码 20180106
+                        try {
+                            BFrame.response(R.string.wake_up_the_callback);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+						
                     }else{
                         BFrame.Wakeup();
                     }
@@ -274,9 +284,16 @@ public class QASRFunction implements IASRFunction {
                     discernASR = mQASREntity.getRec().replaceAll("\\s*", "");
                     Log.d(TAG, "discernASR=======>: " + discernASR);
                     if (TobotUtils.isAwaken(discernASR)) {
+						
                         if (BFrame.robotState) {
-                            BFrame.Interrupt();
-                            BFrame.TTS("我在");
+                            BFrame.Interrupt();							
+							//mohuaiyuan 20180108 新的代码 20180108
+							try {
+								BFrame.response(R.string.wake_up_the_callback);
+							} catch (Exception e) {
+								Log.e(TAG, "tts 主人，我在！反馈 出现 Exception e: "+e.getMessage());
+								e.printStackTrace();
+							}
                         }else{
                             BFrame.Wakeup();
                         }
@@ -304,6 +321,8 @@ public class QASRFunction implements IASRFunction {
                 default:
                     break;
             }
+			
+            //mohuaiyuan 20180108 原来的代码  录音
 //            deleteFile(new File(Constants.QVOICE_MIC));
             super.handleMessage(msg);
         }

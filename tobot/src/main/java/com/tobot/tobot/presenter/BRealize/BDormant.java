@@ -47,7 +47,7 @@ public class BDormant implements IDormant {
             protected void process(String name, String s) {
                 //4.1.1. 本示例中，当喊关键词中配置的词时将使机器人进入睡眠状态
                 //注意： 若要唤醒机器人，可调用wakeup,或者使用语言唤醒词唤醒。
-//                mISceneV.getDormant(false);
+
                 BFrame.FallAsleep();
             }
 

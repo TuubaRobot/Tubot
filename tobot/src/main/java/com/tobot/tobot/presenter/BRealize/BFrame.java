@@ -98,6 +98,11 @@ public class BFrame implements IFrame {
      */
     private LieDownAndSleep mLieDownAndSleep;
 
+    /**
+     * 音量控制
+     */
+    private VolumeControl volumeControl;
+
     private static BLocal mBLocal;
     private static BBattery mBBattery;
     private static BArmtouch mBArmtouch;
@@ -110,6 +115,7 @@ public class BFrame implements IFrame {
     private static Memory memory;
 //    private ServiceHandler serviceHandler;
     public static boolean robotState = true;
+    public static boolean initiate;
 
     private static InterruptTTSCallback interruptTTSCallback;
     private static SimpleFrameCallback actionSimpleFrameCallback;
@@ -138,7 +144,9 @@ public class BFrame implements IFrame {
         customScenario = new CustomScenario(mContent);
         //1. 设置对话模式为自动对话，主场景将维护对话的输入和输出。
         try {
-            startRobotFramework();
+            if (!initiate){
+                startRobotFramework();
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -186,7 +194,8 @@ public class BFrame implements IFrame {
             super.handleMessage(msg);
             switch (msg.what) {
                 case Constants.START_ERROR_MSG://框架加载失败
-                    mBConnect.isLoad(false);
+//                    mBConnect.isLoad(false);
+                    initiate = false;
                     mBConnect.shunt();
                     main.FrameLoadFailure();
                     Log.e(TAG, "start error ⊙﹏⊙b\n" + msg.obj);
@@ -199,15 +208,16 @@ public class BFrame implements IFrame {
                     break;
                 case Constants.START_SUCESS_MSG:
                     Log.e(TAG, "⊙_⊙  框架加载成功");
-                    mBConnect.isLoad(true);
+                    initiate = true;
+//                    mBConnect.isLoad(true);
                     //运行TTS
                     onTTS();
                     //初始化功能
                     onFunction();
                     //调度
                     onAssemble();
-                    //替换
-//                    replaceFunction();
+					
+					
                     //进入次场景
                     onMinorscene();
                     //通知
@@ -338,7 +348,9 @@ public class BFrame implements IFrame {
     /**
      * 站着休眠
      */
-    private void onStraightToSleep(){ mStraightToSleep=new StraightToSleep(main); }
+    private void onStraightToSleep(){
+        mStraightToSleep=new StraightToSleep(main);
+    }
 
     /**
      * 坐下休息（休眠）
@@ -358,6 +370,7 @@ public class BFrame implements IFrame {
      * 音量控制
      */
     private void onAdjustVolume(){
+        volumeControl=new VolumeControl(mContent);
 
     }
 	
@@ -621,7 +634,7 @@ public class BFrame implements IFrame {
      * @param voice
      * @param mIttsCallback
      */
-    public static void ttsWithCallback(String voice,ITTSCallback mIttsCallback){
+    public static synchronized void ttsWithCallback(String voice,ITTSCallback mIttsCallback){
         Log.d(TAG, "ttsWithCallback: ");
         if (mIttsCallback==null){
             mIttsCallback=ittsCallback;
@@ -686,7 +699,8 @@ public class BFrame implements IFrame {
      */
     public static void FallAsleep(){
         if (TobotUtils.isNotEmpty(mRobotFrameManager)){
-            Ear(EarActionCode.EAR_MOTIONCODE_1);//待机效果
+            //mohuaiyuan 20180106 原来的代码
+//            Ear(EarActionCode.EAR_MOTIONCODE_1);//待机效果
             mRobotFrameManager.sleep();
             //5.2 命令执行完成后需明确告诉框架，命令处理结束，否则无法继续进行主对话流程。
             new LocalCommandGather().onComplete();
@@ -695,7 +709,8 @@ public class BFrame implements IFrame {
 
     public static void Wakeup(){
         if (TobotUtils.isNotEmpty(mRobotFrameManager)) {
-            Ear(EarActionCode.EAR_MOTIONCODE_4);//启动效果
+            //mohuaiyuan 20180106 原来的代码
+//            Ear(EarActionCode.EAR_MOTIONCODE_4);//启动效果
             mRobotFrameManager.wakeup();
         }
     }
@@ -947,7 +962,7 @@ public class BFrame implements IFrame {
         //讲话
         String speech = dataMap.get(RESPONSE_SPEECH);
         if (speech != null && speech.length() > 0) {
-            TTS(speech);
+            ttsWithCallback(speech,null);
         }
         //动作
         String action = dataMap.get(RESPONSE_ACTION);

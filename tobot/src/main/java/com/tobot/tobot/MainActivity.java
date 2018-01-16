@@ -108,17 +108,17 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //    private Timer TimeMachine = new Timer(true);//异常断网语音播报时间
 //    private boolean isDormant;//休眠
 //    private boolean isWakeup;//唤醒
+
     private boolean isNotWakeup = true;//禁止唤醒
     private boolean isInterrupt;//打断
     private boolean isSquagging = true;//自锁
 //    private boolean anewConnect;//进入重新联网
     private boolean isInitiativeOff;//判断是否主动断网
-    public static boolean ACTIVATESIGN;//框架启动标志
+//    public static boolean ACTIVATESIGN;//框架启动标志
     private Bundle packet;
     private long exitTime; // 短时间内是否连续点击返回键
     private boolean whence;
 //    private boolean isOFF_HINT;//休眠期间断网不提示
-
     public static Context mContext;
     private BroadcastReceiver mReceiver;
     private SocketThreadManager manager;
@@ -138,7 +138,8 @@ public class MainActivity extends BaseActivity implements ISceneV {
         mContext = this;
         NetManager.instance().init(this);
         manager = SocketThreadManager.sharedInstance();
-        Log("aaaaaaaaaaaaaaaaaa..........................................");
+		
+		
         //初始化AP联网
         onSetAP();
 
@@ -153,7 +154,6 @@ public class MainActivity extends BaseActivity implements ISceneV {
         Log("设备id"+tm.getDeviceId());
 
        new DetectionVersions(this);
-
     }
 
     //联网
@@ -283,11 +283,18 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                 }else if(packet.getInt("arg1") == 4){
 
                                 }else if(packet.getInt("arg1") == 3){
-//                                    isOFF_HINT = false;
+                                    //isOFF_HINT = false;
                                     BFrame.robotState = true;
                                     //mohuaiyuan 20171226 新的代码 20171226
+                                    //TODO 唤醒的地方
                                     Log.d("IDormant", "摸头唤醒 之后 回调: ");
-                                    dealAwakenBehavior();
+                                    try {
+                                        dealAwakenBehavior();
+                                    } catch (Exception e) {
+                                        Log.e("IDormant", "摸头唤醒 之后 回调，出现Exception e : "+e.getMessage());
+                                        e.printStackTrace();
+                                    }
+
                                 }
                                 break;
                         }
@@ -361,6 +368,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
         Log.d(TAG, "MainActivity dealAwakenBehavior: ");
         DormantUtils dormantUtils=new DormantUtils();
         dormantUtils.dealAwakenBehavior();
+		
     }
 
 
@@ -372,7 +380,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
     @Override
     public void isKeyDown(int keyCode, KeyEvent event) {
         Log("触摸事件===>keyCode:"+keyCode+"KeyEvent:"+event);
-        if (ACTIVATESIGN) {
+        if (BFrame.initiate) {
             switch (keyCode) {
                 case KeyEvent.KEYCODE_BACK:
                     if (!BFrame.robotState && isNotWakeup) {
@@ -403,20 +411,43 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //                        BFrame.prevent = false;
                     } else {
                         Log("触摸--调侃聊天");
+                        Log.d("helloworld", "触摸--调侃聊天: ");
                         try {
                             long l = (System.currentTimeMillis() - exitTime);
                             if (l < 4000) {//连续点击
                                 Log("触摸--连续点击");
+                                Log.d("helloworld", "触摸--连续点击: ");
+								
                                // onBle();
-								
-                                TobotUtils.getIPAddress(MainActivity.this);//播报ip
-								
+																
                                 //mohuaiyuan 20171228 新的代码 新增的代码
                                 exitTime = 0;
 
                                 //mohuaiyuan 20171220 新的代码 新增的代码
-//                                MyTouchResponse myTouchResponse=new MyTouchResponse(mContext);
-//                                mBFrame.response(myTouchResponse.doubleTouchHeadResponse());
+                                MyTouchResponse myTouchResponse=new MyTouchResponse(mContext);
+                                //BFrame.response(myTouchResponse.doubleTouchHeadResponse());
+
+                                Map<String,String> map=null;
+                                try {
+                                    map=BFrame.getString(myTouchResponse.doubleTouchHeadResponse());
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+
+                                BaseTTSCallback baseTTSCallback=new BaseTTSCallback(){
+                                    @Override
+                                    public void onCompleted() {
+                                        TobotUtils.getIPAddress(mContext);//播报ip
+                                    }
+                                };
+                                BFrame.setInterruptTTSCallback(new InterruptTTSCallback(this,baseTTSCallback));
+
+                                try {
+                                    BFrame.responseWithCallback(map);
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+
 
                                 //mohuaiyuan 20180104 测试 获取音量
                                 //AudioUtils audioUtils=new AudioUtils(mContext);
@@ -430,6 +461,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
                             } else {
                                 Log("触摸--单击");
+                                Log.d("helloworld", "触摸--单击: ");
                                 exitTime = System.currentTimeMillis();
 
                                 //mohuaiyuan 20171220 原来的代码
@@ -562,6 +594,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
     public void getScenario(String scenario) {
         mScenario = scenario;
         mBFrame.getBArmtouch().getScenario(scenario);
+		
         //理论上不需要,因为asr检测很频繁(断网后asr会切换成离线)//5.1更换asr后有bug
         if (!TobotUtils.isInScenario(mScenario) && BFrame.robotState){
 //        if (!TobotUtils.isInScenario(mScenario) && isDormant){
@@ -581,7 +614,6 @@ public class MainActivity extends BaseActivity implements ISceneV {
     public void FrameLoadSuccess(boolean whence) {
         this.whence = whence;
 //        isDormant = true;
-        ACTIVATESIGN = true;
         manifestation();
     }
 
@@ -660,7 +692,9 @@ public class MainActivity extends BaseActivity implements ISceneV {
         public void run() {
             Log("离线五秒检测到断网:");
             if (!AppTools.netWorkAvailable(MainActivity.this) && !hintConnect) {
+				
                 Log("离线n秒检测到断网进入语音提示:");
+				
                 mBFrame.choiceFunctionProcessor(IASRFunction.DEFAULT_ASR_PROCESSOR_OFFLINE);//离线asr
 //                anewConnect = true;
                 hintConnect = true;
@@ -717,6 +751,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
     private class TimeMachineTimerTask extends TimerTask {
         public void run() {
+			
             if (hintConnect && BFrame.robotState){
 //            if (hintConnect && !isOFF_HINT){
                 //mohuaiyuan 20171220 原来的代码
@@ -728,6 +763,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
                     //mohuaiyuan 20180103 新的代码 20180103
                     mBFrame.response(R.string.the_network_is_broken);
                 } catch (Exception e) {
+                    Log.e(TAG, " 网络断了 ，重复性提示 出现 Exception e : "+e.getMessage());
                     e.printStackTrace();
                 }
             }
@@ -802,7 +838,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
     @Override
     protected void onRestart() {
         super.onRestart();
-        if (!ACTIVATESIGN) {
+        if (!BFrame.initiate) {
             Log.e(TAG,"重新启动时加载 onInitiate()");
             mBFrame.onInitiate(true);
         }

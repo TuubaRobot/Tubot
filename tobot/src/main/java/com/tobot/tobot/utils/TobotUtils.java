@@ -15,6 +15,8 @@ import com.turing123.libs.android.resourcemanager.ResourceManager;
 import com.turing123.libs.android.resourcemanager.ResourceMap;
 
 import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
@@ -29,6 +31,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -470,7 +473,15 @@ public class TobotUtils {
                         for (Enumeration<InetAddress> enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements(); ) {
                             InetAddress inetAddress = enumIpAddr.nextElement();
                             if (!inetAddress.isLoopbackAddress() && inetAddress instanceof Inet4Address) {
-                                BFrame.TTS("本机当前IP地址为:"+inetAddress.getHostAddress());
+                                //mohuaiyuan 20180108 原来的代码
+//                                BFrame.TTS("本机当前IP地址为:"+inetAddress.getHostAddress());
+                                //mohuaiyuan 20180108 新的代码 20180108
+                                String speech="speech:本机当前IP地址为:"+inetAddress.getHostAddress();
+                                try {
+                                    BFrame.response(speech);
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
                                 return inetAddress.getHostAddress();
                             }
                         }
@@ -503,6 +514,31 @@ public class TobotUtils {
                 ((ip >> 8) & 0xFF) + "." +
                 ((ip >> 16) & 0xFF) + "." +
                 (ip >> 24 & 0xFF);
+    }
+
+
+    /**
+     *
+     * @param cmds
+     * @throws Exception
+     */
+    public static void doCmds(List<String> cmds) throws Exception {
+        String result = "";
+        Process process = Runtime.getRuntime().exec("su");
+        DataOutputStream dos = new DataOutputStream(process.getOutputStream());
+        DataInputStream dis = new DataInputStream(process.getInputStream());
+        for (String tmpCmd : cmds) {
+            dos.writeBytes(tmpCmd+"\n");
+        }
+        dos.writeBytes("exit\n");
+        dos.flush();
+        dos.close();
+        String line = null;
+        while ((line = dis.readLine()) != null) {
+            Log.d("Javen","result" + line);
+            result += line;
+        }
+        process.waitFor();
     }
 
 

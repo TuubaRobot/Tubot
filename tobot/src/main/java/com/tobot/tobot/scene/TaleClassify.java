@@ -105,5 +105,4 @@ public class TaleClassify implements IScenario {
         return scenarioRuntimeConfig;
     }
 
-
 }
