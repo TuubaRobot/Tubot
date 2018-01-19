@@ -115,6 +115,7 @@ public class BFrame implements IFrame {
     private static Memory memory;
 //    private ServiceHandler serviceHandler;
     public static boolean robotState = true;
+    public static boolean initiate;
 
     private static InterruptTTSCallback interruptTTSCallback;
     private static SimpleFrameCallback actionSimpleFrameCallback;
@@ -143,7 +144,9 @@ public class BFrame implements IFrame {
         customScenario = new CustomScenario(mContent);
         //1. 设置对话模式为自动对话，主场景将维护对话的输入和输出。
         try {
-            startRobotFramework();
+            if (!initiate){
+                startRobotFramework();
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -191,7 +194,8 @@ public class BFrame implements IFrame {
             super.handleMessage(msg);
             switch (msg.what) {
                 case Constants.START_ERROR_MSG://框架加载失败
-                    mBConnect.isLoad(false);
+//                    mBConnect.isLoad(false);
+                    initiate = false;
                     mBConnect.shunt();
                     main.FrameLoadFailure();
                     Log.e(TAG, "start error ⊙﹏⊙b\n" + msg.obj);
@@ -206,7 +210,9 @@ public class BFrame implements IFrame {
 					
                 case Constants.START_SUCESS_MSG:
                     Log.e(TAG, "⊙_⊙  框架加载成功");
-                    mBConnect.isLoad(true);
+                    initiate = true;
+//                    mBConnect.isLoad(true);
+
                     //运行TTS
                     onTTS();
                     //初始化功能
@@ -581,6 +587,7 @@ public class BFrame implements IFrame {
         motor.doAction(Action.buildEarAction(code, brightness, pleasantness), new SimpleFrameCallback());
     }
 
+	
     /**
      * 下发耳部灯圈
      * @param code
@@ -971,13 +978,28 @@ public class BFrame implements IFrame {
         //动作
         String action = dataMap.get(RESPONSE_ACTION);
         if (action != null && action.length() > 0) {
-            int actionCode = -1;
-            try {
-                actionCode = Integer.valueOf(action);
-            } catch (NumberFormatException e) {
-                throw new Exception("umberFormatException e:" + e.getMessage());
+            if (action.contains("#a_a#")){
+                String[] actionTemp=action.split("#a_a#");
+                for (int i=0;i<actionTemp.length;i++){
+                    int actionCode = -1;
+                    try {
+                        actionCode = Integer.valueOf(actionTemp[i].trim());
+                    } catch (NumberFormatException e) {
+                        throw new Exception("umberFormatException e:" + e.getMessage());
+                    }
+                    motion(actionCode);
+                }
+
+            }else {
+                int actionCode = -1;
+                try {
+                    actionCode = Integer.valueOf(action);
+                } catch (NumberFormatException e) {
+                    throw new Exception("umberFormatException e:" + e.getMessage());
+                }
+                motion(actionCode);
             }
-            motion(actionCode);
+
         }
         //表情
         String expression = dataMap.get(RESPONSE_EXPRESSION);
@@ -1016,13 +1038,28 @@ public class BFrame implements IFrame {
         //动作
         String action = dataMap.get(RESPONSE_ACTION);
         if (action != null && action.length() > 0) {
-            int actionCode = -1;
-            try {
-                actionCode = Integer.valueOf(action);
-            } catch (NumberFormatException e) {
-                throw new Exception("umberFormatException e:" + e.getMessage());
+            if (action.contains("#a_a#")){
+                String[] actionTemp=action.split("#a_a#");
+                for (int i=0;i<actionTemp.length;i++){
+                    int actionCode = -1;
+                    try {
+                        actionCode = Integer.valueOf(actionTemp[i].trim());
+                    } catch (NumberFormatException e) {
+                        throw new Exception("umberFormatException e:" + e.getMessage());
+                    }
+                    outActionWithCallback(actionCode,1,1,actionSimpleFrameCallback);
+                }
+
+            }else {
+                int actionCode = -1;
+                try {
+                    actionCode = Integer.valueOf(action);
+                } catch (NumberFormatException e) {
+                    throw new Exception("umberFormatException e:" + e.getMessage());
+                }
+                outActionWithCallback(actionCode,1,1,actionSimpleFrameCallback);
             }
-            outActionWithCallback(actionCode,1,1,actionSimpleFrameCallback);
+
         }
         //表情
         String expression = dataMap.get(RESPONSE_EXPRESSION);
