@@ -1,9 +1,11 @@
 package com.tobot.tobot.base;
 
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
@@ -11,6 +13,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.tobot.tobot.R;
+import com.tobot.tobot.presenter.BRealize.BFrame;
 import com.tobot.tobot.utils.AppTools;
 import com.tobot.tobot.utils.TobotUtils;
 
@@ -30,6 +33,7 @@ import java.util.List;
  * @author zwen
  */
 public class UpgradeManger {
+	
 	private static String TAG = "Javen UpgradeManger";
 	private Context mContext;
 	private static final int DOWN_UPDATE = 1;
@@ -39,6 +43,7 @@ public class UpgradeManger {
 	private Thread downLoadThread;
 	private boolean interceptFlag = false, netWork;
 	private ProgressDialog updateDialog;
+	public static boolean upgrade;
 
 
 	/* 下载包安装路径 */
@@ -63,7 +68,9 @@ public class UpgradeManger {
 					}
 					break;
 				case DOWN_OVER:
+					upgrade = true;
 					updateDialog.dismiss();
+					BFrame.TTS(mContext.getResources().getString(R.string.Upgrade_prompt_initiative));
 					StartOtherApplications();
 //					installApk();
 					break;
@@ -73,7 +80,7 @@ public class UpgradeManger {
 		};
 	};
 
-
+	
 	public UpgradeManger(Context context, String apkUrl) {
 		this.mContext = context;
 		this.apkUrl = apkUrl;
@@ -161,7 +168,7 @@ public class UpgradeManger {
 		if (!apkfile.exists()) {
 			return;
 		}
-
+		BFrame.TTS(mContext.getResources().getString(R.string.Upgrade_prompt));
 		//adb命令安装
 		Log.i(TAG,"apk保存路径:"+apkfile.toString());
 		List<String> list = new LinkedList<>();
@@ -170,6 +177,7 @@ public class UpgradeManger {
 		list.add("adb install -r tobot.apk");
 		try {
 			TobotUtils.doCmds(list);
+			upgrade = false;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -184,18 +192,23 @@ public class UpgradeManger {
 	}
 
 	private void StartOtherApplications() {
-		Intent intent = mContext.getPackageManager().getLaunchIntentForPackage("com.robot.restart");
-		if (intent != null) {
-			Log.i(TAG, "已启动应用");
-			mContext.startActivity(intent);
-		} else {
-			//创建一个意图（装载广播事件）
-			Intent broadcast = new Intent();
-			broadcast.setAction("adb.restart.start");
-			//发送无序广播
-			mContext.sendBroadcast(broadcast);
-			Log.i(TAG, "没有要启动的应用");
-		}
+//		final Intent intent = mContext.getPackageManager().getLaunchIntentForPackage("com.robot.restart");
+//		new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				if (intent != null) {
+//					Log.i(TAG, "已启动应用");
+//					mContext.startActivity(intent);
+//				} else {
+		//创建一个意图（装载广播事件）
+		Intent broadcast = new Intent();
+		broadcast.setAction("adb.restart.start");
+		//发送无序广播
+		mContext.sendBroadcast(broadcast);
+		Log.i(TAG, "没有要启动的应用");
+//				}
+//			}
+//		}).start();
 		installApk();
 	}
 

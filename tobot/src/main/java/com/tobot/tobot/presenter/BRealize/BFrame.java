@@ -116,6 +116,7 @@ public class BFrame implements IFrame {
 //    private ServiceHandler serviceHandler;
     public static boolean robotState = true;
     public static boolean initiate;
+    private boolean astrict;
 
     private static InterruptTTSCallback interruptTTSCallback;
     private static SimpleFrameCallback actionSimpleFrameCallback;
@@ -165,14 +166,19 @@ public class BFrame implements IFrame {
         // 设置状态机工作模式。查看API Ref以了解更多关于框架工作模式的信息
         int state = new StateBuilder(StateBuilder.DefaultMode).build();
         // prepare（）这个方法必须在你做任何事情之前被调用
+        Log.d(TAG,"框架初始化");
         mRobotFrameManager.prepare(state, new RobotFramePreparedListener() {
 
             @Override
             public void onPrepared() {
                 // 激活
-                frameHandle.sendEmptyMessage(Constants.REPLACE_ASR);
+                if (!astrict) {
+                    astrict = true;
+                    Log.d(TAG, "框架激活");
+                    frameHandle.sendEmptyMessage(Constants.REPLACE_ASR);
 //                mRobotFrameManager.start();
 //                frameHandle.sendEmptyMessage(Constants.START_SUCESS_MSG);
+                }
             }
 
             @Override
@@ -200,12 +206,15 @@ public class BFrame implements IFrame {
                     main.FrameLoadFailure();
                     Log.e(TAG, "start error ⊙﹏⊙b\n" + msg.obj);
                     break;
+					
                 case Constants.REPLACE_ASR:
                     //替换
                     replaceFunction();
                     mRobotFrameManager.start();
+                    Log.d(TAG,"框架启动");
                     frameHandle.sendEmptyMessage(Constants.START_SUCESS_MSG);
                     break;
+					
                 case Constants.START_SUCESS_MSG:
                     Log.e(TAG, "⊙_⊙  框架加载成功");
                     initiate = true;
@@ -216,8 +225,7 @@ public class BFrame implements IFrame {
                     onFunction();
                     //调度
                     onAssemble();
-					
-					
+
                     //进入次场景
                     onMinorscene();
                     //通知
@@ -225,7 +233,7 @@ public class BFrame implements IFrame {
                     //手臂触摸
                     onBArmtouch();
                     //mohuaiyuan 20171226 原来的代码
-                  /*  //休眠
+                    /*  //休眠
                     onDormant();*/
                     //mohuaiyuan 20171226 新的代码 20171226
                     //站着休眠
@@ -584,6 +592,14 @@ public class BFrame implements IFrame {
         motor.doAction(Action.buildEarAction(code, brightness, pleasantness), new SimpleFrameCallback());
     }
 
+	
+    /**
+     * 下发耳部灯圈
+     * @param code
+     * @param brightness
+     * @param pleasantness
+     * @param iMotorCallback
+     */
     public static void EarWithCallback(int code,int brightness,int pleasantness,IMotorCallback iMotorCallback) {
         motor.doAction(Action.buildEarAction(code, brightness, pleasantness), iMotorCallback);
 
@@ -1107,6 +1123,11 @@ public class BFrame implements IFrame {
 
         return map;
 
+    }
+
+    public static String getString(int id ,Object... formatAars){
+        String string=mContent.getResources().getString(id,formatAars);
+        return string;
     }
 
     public static InterruptTTSCallback getInterruptTTSCallback() {

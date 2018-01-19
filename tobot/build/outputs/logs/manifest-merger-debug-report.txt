@@ -1,139 +1,139 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:2:1-100:12
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:2:1-100:12
 	package
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:2:11-69
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:5:5-68
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:18:5-68
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:5:5-68
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:18:5-68
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:5:22-65
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:5:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:6:5-74
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:6:5-74
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:6:22-71
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:6:22-71
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:7:5-79
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:7:22-76
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:8:5-81
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:8:22-78
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:9:5-78
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:11:5-78
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:9:5-78
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:9:22-75
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:9:22-75
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:10:5-73
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:15:5-73
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:10:5-73
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:15:5-73
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:10:22-70
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:10:22-70
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:11:5-75
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:16:5-75
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:11:5-75
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:11:22-72
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:11:22-72
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:12:5-75
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:17:5-75
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:12:5-75
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:12:22-72
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:12:22-72
 uses-permission#android.permission.INTERNET
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:13:5-67
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:19:5-67
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:13:5-67
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:13:22-64
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:14:5-79
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:20:5-79
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:14:5-79
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:14:22-76
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:15:5-76
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:22:5-76
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:15:5-76
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:22:5-76
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:15:22-73
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:16:5-76
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:23:5-76
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:16:5-76
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:23:5-76
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:16:22-73
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:16:22-73
 uses-permission#android.permission.READ_LOGS
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:17:5-68
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:24:5-68
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:17:5-68
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:17:22-65
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:17:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:18:5-81
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:18:22-78
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.CAMERA
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:20:5-65
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:20:5-65
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:20:22-62
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:20:22-62
 uses-feature#android.hardware.camera
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:21:5-60
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:21:5-60
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:21:19-57
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:21:19-57
 uses-feature#android.hardware.camera.AUTOFOCUS
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:23:5-70
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:23:5-70
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:23:19-67
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:23:19-67
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:25:5-80
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:12:5-80
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:25:5-80
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:25:22-77
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:25:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:27:5-81
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:13:5-81
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:27:5-81
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:27:22-78
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:27:22-78
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:29:5-84
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:26:5-84
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:29:5-84
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:26:5-84
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:29:22-81
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:29:22-81
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:31:5-79
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:21:5-79
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:31:5-79
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:31:22-76
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:31:22-76
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:32:5-81
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:32:5-81
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:32:22-78
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:32:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:34:5-71
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:14:5-71
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:34:5-71
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:14:5-71
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:34:22-68
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:34:22-68
 supports-screens
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:37:5-42:39
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:37:5-42:39
 	android:largeScreens
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:39:9-36
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:39:9-36
 	android:smallScreens
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:42:9-36
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:42:9-36
 	android:normalScreens
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:40:9-37
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:40:9-37
 	android:resizeable
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:41:9-34
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:41:9-34
 	android:anyDensity
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:38:9-34
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:38:9-34
 application
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:44:5-98:19
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:44:5-98:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] H:\Androidsdk-lo\.android\build-cache\cb25f449da925f6383001520c6f8522a42258854\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:22.2.0] H:\Androidsdk-lo\.android\build-cache\c845a51456290d9fde5935839429a9aa378128eb\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:22.2.0] H:\Androidsdk-lo\.android\build-cache\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\output\AndroidManifest.xml:22:5-20
@@ -144,87 +144,87 @@ MERGED from [com.android.support:support-fragment:26.0.0-alpha1] H:\Androidsdk-l
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\270769769a3cd8875d532206c9be4a1480838027\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\61a8a8ae0be4eea4603e71c2904289aa3f9c5ec4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\dd505ee07ceda30fcd4ce78d113ad4dfcc3d3f29\output\AndroidManifest.xml:29:5-20
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:28:5-78:19
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:28:5-78:19
 	android:label
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:48:9-41
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:48:9-41
 	android:supportsRtl
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:49:9-35
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:49:9-35
 	android:allowBackup
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:46:9-35
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:46:9-35
 	android:icon
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:47:9-43
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:47:9-43
 	android:theme
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:50:9-40
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:50:9-40
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:45:9-46
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:45:9-46
 meta-data#app_key
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:52:9-54:46
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:52:9-54:46
 	android:value
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:54:13-44
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:54:13-44
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:53:13-35
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:53:13-35
 meta-data#pack_id
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:55:9-57:49
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:55:9-57:49
 	android:value
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:57:13-47
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:57:13-47
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:56:13-35
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:56:13-35
 activity#com.tobot.tobot.MainActivity
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:59:9-65:20
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:59:9-65:20
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:59:19-47
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:59:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:60:13-64:29
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:61:17-69
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:61:25-66
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:63:17-77
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:63:27-74
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:63:27-74
 receiver#com.tobot.tobot.utils.bluetoothblock.BluetoothConnectActivityReceiver
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:67:9-71:20
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:67:9-71:20
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:67:19-103
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:67:19-103
 intent-filter#android.bluetooth.device.action.PAIRING_REQUEST
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:68:13-70:29
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:68:13-70:29
 	android:priority
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:68:28-51
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:68:28-51
 action#android.bluetooth.device.action.PAIRING_REQUEST
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:69:17-90
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:69:17-90
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:69:25-87
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:69:25-87
 receiver#com.tobot.tobot.broadcast.AutostartReceiver
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:83:9-89:20
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:83:9-89:20
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:83:19-62
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:83:19-62
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:84:13-88:29
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:84:13-88:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:85:17-79
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:85:17-79
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:85:25-76
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:85:25-76
 category#android.intent.category.HOME
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:87:17-73
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:87:17-73
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:87:27-70
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:87:27-70
 receiver#com.tobot.tobot.broadcast.ShutdownReceiver
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:90:9-97:20
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:90:9-97:20
 	android:enabled
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:92:13-35
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:92:13-35
 	android:exported
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:93:13-36
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:93:13-36
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:91:13-55
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:91:13-55
 intent-filter#android.intent.action.ACTION_SHUTDOWN
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:94:13-96:29
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:94:13-96:29
 action#android.intent.action.ACTION_SHUTDOWN
-ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:95:17-80
+ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:95:17-80
 	android:name
-		ADDED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml:95:25-77
+		ADDED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml:95:25-77
 uses-sdk
-INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] H:\Androidsdk-lo\.android\build-cache\cb25f449da925f6383001520c6f8522a42258854\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.tencent.bugly:crashreport:2.4.0] H:\Androidsdk-lo\.android\build-cache\1aeeb37c8728e698a9fee186dc49fc58761a4428\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.tencent.bugly:nativecrashreport:3.1.2] H:\Androidsdk-lo\.android\build-cache\46a64da53fea0fd5a99cc344deb3cfa3e6acba6f\output\AndroidManifest.xml:5:5-7:41
@@ -240,15 +240,15 @@ MERGED from [com.jakewharton:butterknife:8.6.0] H:\Androidsdk-lo\.android\build-
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\fd52b3e8b6d860a50196b9312a63c8d0c8bb28c0\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\61a8a8ae0be4eea4603e71c2904289aa3f9c5ec4\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\dd505ee07ceda30fcd4ce78d113ad4dfcc3d3f29\output\AndroidManifest.xml:21:5-23:58
-MERGED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\9cf70fc1858137395cfe62360dcd1df337c407eb\output\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
-		INJECTED from H:\androidWork\Tubot-5.1-official-20180110\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
+		INJECTED from H:\androidWork\Tubot-5.1-official-20180116\tobot\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:support-v4:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\9cf70fc1858137395cfe62360dcd1df337c407eb\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\fb502177faef67299435f3a9228f73946934ba1a\output\AndroidManifest.xml:25:5-27:41
@@ -262,90 +262,90 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] H:\Androidsdk-lo\
 	android:name
 		ADDED from [com.android.support:support-v4:26.0.0-alpha1] H:\Androidsdk-lo\.android\build-cache\9cf70fc1858137395cfe62360dcd1df337c407eb\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:25:5-68
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:25:22-65
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:25:22-65
 meta-data#com.baidu.speech.APP_ID
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:31:9-33:39
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:31:9-33:39
 	android:value
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:33:13-36
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:32:13-51
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:32:13-51
 meta-data#com.baidu.speech.API_KEY
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:34:9-36:56
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:34:9-36:56
 	android:value
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:36:13-53
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:36:13-53
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:35:13-52
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:35:13-52
 meta-data#com.baidu.speech.SECRET_KEY
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:37:9-39:64
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:37:9-39:64
 	android:value
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:39:13-61
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:39:13-61
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:38:13-55
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:38:13-55
 service#com.baidu.speech.VoiceRecognitionService
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:41:9-43:40
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:43:13-37
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:42:13-68
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:42:13-68
 activity#com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:45:9-56:20
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:45:9-56:20
 	android:screenOrientation
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:49:13-49
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:49:13-49
 	android:exported
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:48:13-37
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:48:13-37
 	android:configChanges
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:47:13-76
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:47:13-76
 	android:theme
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:50:13-56
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:50:13-56
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:46:13-87
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:46:13-87
 intent-filter#android.intent.category.DEFAULT+com.baidu.action.RECOGNIZE_SPEECH
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:51:13-55:29
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:51:13-55:29
 action#com.baidu.action.RECOGNIZE_SPEECH
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:52:17-76
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:52:17-76
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:52:25-73
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:52:25-73
 category#android.intent.category.DEFAULT
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:54:17-76
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:54:17-76
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:54:27-73
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:54:27-73
 service#com.turing123.robotframe.internal.function.asr.ASROfflineService
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:58:9-65:19
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:58:9-65:19
 	android:enabled
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:60:13-35
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:60:13-35
 	android:exported
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:61:13-36
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:59:13-92
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:59:13-92
 intent-filter#com.turing123.robotframe.intent.action.START_ASR_OFFLINE_SERVICE
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:62:13-64:29
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:62:13-64:29
 action#com.turing123.robotframe.intent.action.START_ASR_OFFLINE_SERVICE
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:63:17-107
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:63:17-107
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:63:25-104
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:63:25-104
 service#com.turing123.robotframe.internal.function.wakeup.WakeUpService
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:66:9-74:19
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:66:9-74:19
 	android:enabled
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:68:13-35
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:68:13-35
 	android:process
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:70:13-38
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:70:13-38
 	android:exported
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:69:13-36
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:67:13-91
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:67:13-91
 intent-filter#com.turing123.robotframe.intent.action.START_WAKEUP_SERVICE
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:71:13-73:29
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:71:13-73:29
 action#com.turing123.robotframe.intent.action.START_WAKEUP_SERVICE
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:72:17-102
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:72:17-102
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:72:25-99
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:72:25-99
 service#org.eclipse.paho.android.service.MqttService
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:75:9-80
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:75:9-80
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:75:18-77
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:75:18-77
 activity#com.turing123.robotframe.internal.scenario.ScenarioActivity
-ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:77:9-96
+ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:77:9-96
 	android:name
-		ADDED from [Tubot-5.1-official-20180110:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\8bf64c228c4fc1612c5e987a2448e7d086db6ce6\output\AndroidManifest.xml:77:19-93
+		ADDED from [Tubot-5.1-official-20180116:RobotFrame:unspecified] H:\Androidsdk-lo\.android\build-cache\a6337a64f9eefbc3d14d49d503194c30df98192e\output\AndroidManifest.xml:77:19-93

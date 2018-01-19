@@ -52,7 +52,6 @@ public class BConnect implements IConnect{
     private Context mContent;
     private ISceneV mISceneV;
     private MainActivity mainActivity;
-//    private boolean isLoad = true;//是否加载框架
     private WifiConfiguration wc;
     private ApConfiguration apc;
     private User user = new User();
@@ -160,10 +159,6 @@ public class BConnect implements IConnect{
         networkHandler.sendMessage(message);
     }
 
-//    @Override
-//    public void isLoad(boolean load) {
-//        isLoad = load;
-//    }
 
     Handler networkHandler = new Handler(){
         @Override

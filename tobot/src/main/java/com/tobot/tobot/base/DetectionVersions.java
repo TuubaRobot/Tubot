@@ -23,6 +23,7 @@ import okhttp3.Call;
  * Created by Javen on 2018/1/9.
  */
 public class DetectionVersions {
+	
     private String TAG = "Javen DetectionVersions";
     private String uuid;
     private Context context;
@@ -36,6 +37,7 @@ public class DetectionVersions {
         uuid = Transform.getGuid();
         OkHttpUtils.get()
                 .url(Constants.VERSIONS )
+
                 .build()
                 .execute(new StringCallback() {
                     @Override

@@ -1,29 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="Javen" />
+        <option name="name" value="Javen" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="chat" />
+        <option name="name" value="chat" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Javen" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf9e31-b7d2-43c3-ab27-7eb1f815f3f4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tubot-5.1-official.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-10-10-03-57-850.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/app/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/support/test/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/support/test/espresso/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/support/test/espresso/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/support/test/espresso/idling/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/support/test/rule/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/android/support/test/rule/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/com/tobot/tobot/ExampleInstrumentedTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/com/tobot/tobot/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/com/tobot/tobot/test/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/com/tobot/tobot/test/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/androidTest/debug/com/tobot/tobot/test/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/test/debug/com/tobot/tobot/ExampleUnitTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tobot/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
+    <list default="true" id="f7dffae8-4442-4f87-89ce-853b12f98c65" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-22.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-22.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/android/support/design/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tencent/bugly/crashreport/R$string.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tencent/bugly/crashreport/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tencent/bugly/nativecrashreport/R$string.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tencent/bugly/nativecrashreport/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/BuildConfig.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$2$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$2$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/MainActivity$3.class" />
@@ -50,25 +64,30 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/R$string.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/R$style.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/R$styleable.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/Constants.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/Constants.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/DetectionVersions$1$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/DetectionVersions$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/DetectionVersions$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/DetectionVersions$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/DetectionVersions.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/DetectionVersions.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/Frequency$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/Frequency$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/Frequency.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/Frequency.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/TobotApplication.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/TobotApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/MyTouchResponse.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/MyTouchResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/TouchResponse.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/TouchResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/base/UpgradeManger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/AssembleFunction.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/AssembleFunction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/function/QASRFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BBattery$BatteryTimer.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BBattery$BatteryTimer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BBattery.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BBattery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$networkFailureTimeTask.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$networkFailureTimeTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$networkTimeTask.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect$networkTimeTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BConnect.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame$2.class" />
@@ -79,21 +98,53 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame$7.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BScenario.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/BScenario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/DormantManager.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/DormantManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/DormantUtils.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/DormantUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/InterruptTTSCallback.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/InterruptTTSCallback.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/LieDownAndSleep.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/LieDownAndSleep.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/SitDownAndSleep.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/SitDownAndSleep.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/SitDownAndSleepTimeTask.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/SitDownAndSleepTimeTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/StraightToSleep.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/StraightToSleep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/BRealize/VolumeControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/IPort/IConnect.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/presenter/IPort/IConnect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$2$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$5.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/DanceScenario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$3$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$5.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$DoActionThread.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$DoActionThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$MyHandler.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario$MyHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/SongScenario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$4$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$5.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$6.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$DoActionThread.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$DoActionThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$MyHandler.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario$MyHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/StoryScenario.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/VolumeScenario$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/VolumeScenario$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/VolumeScenario.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/scene/VolumeScenario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/AppTools.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/AppTools.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/AudioUtils.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/AudioUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$2.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$3$1.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$3.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$4.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$5.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$6.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$MyHandler.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager$MyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/CommonRequestManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/TobotUtils.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/tobot/tobot/utils/TobotUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/turing123/robotframe/R$string.class" afterPath="$PROJECT_DIR$/tobot/build/intermediates/classes/debug/com/turing123/robotframe/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/tobot/build/intermediates/res/resources-debug.ap_" />
@@ -102,7 +153,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/RobotFrame_unspecified.xml" afterPath="$PROJECT_DIR$/.idea/libraries/RobotFrame_unspecified.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
@@ -111,6 +161,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/buildConfig/debug/com/tobot/tobot/BuildConfig.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/buildConfig/debug/com/tobot/tobot/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/tencent/bugly/crashreport/R.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/tencent/bugly/crashreport/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/tencent/bugly/nativecrashreport/R.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/tencent/bugly/nativecrashreport/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/tobot/tobot/R.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/tobot/tobot/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/turing123/robotframe/R.java" afterPath="$PROJECT_DIR$/tobot/build/generated/source/r/debug/com/turing123/robotframe/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/tobot/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
@@ -238,31 +290,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/tobot/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/tobot/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/DetectionVersions.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/DetectionVersions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Frequency.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Frequency.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/TobotApplication.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/TobotApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/function/QASRFunction.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/function/QASRFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BBattery.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BBattery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BConnect.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BConnect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BDormant.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BDormant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BScenario.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BScenario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/DormantManager.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/DormantManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/DormantUtils.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/DormantUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/InterruptTTSCallback.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/InterruptTTSCallback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/LieDownAndSleep.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/LieDownAndSleep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/SitDownAndSleep.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/SitDownAndSleep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/SitDownAndSleepTimeTask.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/SitDownAndSleepTimeTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/StraightToSleep.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/StraightToSleep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/IPort/IConnect.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/IPort/IConnect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/TaleClassify.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/TaleClassify.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/VolumeControl.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/VolumeControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/DanceScenario.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/DanceScenario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/SongScenario.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/SongScenario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/StoryScenario.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/StoryScenario.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/VolumeScenario.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/VolumeScenario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/AppTools.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/AppTools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/AudioUtils.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/AudioUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/CommonRequestManager.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/CommonRequestManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java" afterPath="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/tobot/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tobot/tobot.iml" afterPath="$PROJECT_DIR$/tobot/tobot.iml" />
     </list>
-    <ignored path="Tubot-5.1-official-20180110.iws" />
+    <ignored path="Tubot-5.1-official-20180116.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -288,21 +337,105 @@
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="Tubot-5.1-official-20180110" />
+    <favorites_list name="Tubot-5.1-official-20180116" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UpgradeManger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2551#2552#0" expanded="false" />
+                <element signature="e#2584#2585#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="894" column="0" selection-start-line="894" selection-start-column="0" selection-end-line="894" selection-end-column="0" />
+            <state relative-caret-position="278">
+              <caret line="290" column="62" selection-start-line="290" selection-start-column="62" selection-end-line="290" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="116" column="36" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QASRFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/function/QASRFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="244" column="21" selection-start-line="244" selection-start-column="21" selection-end-line="244" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VolumeScenario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/VolumeScenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BBattery.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BBattery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1914">
+              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+              <folding>
+                <element signature="e#4656#4657#0" expanded="true" />
+                <element signature="e#4688#4689#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BodyActionCode.class" pinned="false" current-in-tab="false">
+        <entry file="jar://H:/Androidsdk-lo/.android/build-cache/a6337a64f9eefbc3d14d49d503194c30df98192e/output/jars/classes.jar!/com/turing123/robotframe/multimodal/action/BodyActionCode.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="I:\apk\tubot.jks" />
+    <option name="KEY_ALIAS" value="robot" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -323,14 +456,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Tubot-5.1-official-20180110" />
+              <option name="name" value="Tubot-5.1-official-20180116" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="Tubot-5.1-official-20180110" />
+                <option name="name" value="Tubot-5.1-official-20180116" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -352,7 +485,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Tubot-5.1-official-20180110'." />
+                <option name="description" value="Displays the sub-projects of root project 'Tubot-5.1-official-20180116'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -401,7 +534,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Tubot-5.1-official-20180110'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'Tubot-5.1-official-20180116'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -411,7 +544,7 @@
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Tubot-5.1-official-20180110' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'Tubot-5.1-official-20180116' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -439,7 +572,7 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Tubot-5.1-official-20180110'." />
+                <option name="description" value="Displays all dependencies declared in root project 'Tubot-5.1-official-20180116'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -508,7 +641,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Tubot-5.1-official-20180110'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'Tubot-5.1-official-20180116'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -567,6 +700,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare Tubot-5.1-official-20180116:RobotFrame:unspecified" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareTubot51Official20180116RobotFrameUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build." />
@@ -641,7 +779,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Tubot-5.1-official-20180110'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'Tubot-5.1-official-20180116'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -956,11 +1094,6 @@
                 <option name="name" value="prepareComAndroidSupportTestRunner05Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Tubot-5.1-official-20180110:RobotFrame:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareTubot51Official20180110RobotFrameUnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintRelease" />
@@ -975,12 +1108,12 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'Tubot-5.1-official-20180110'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'Tubot-5.1-official-20180116'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'Tubot-5.1-official-20180110'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'Tubot-5.1-official-20180116'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -1107,7 +1240,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Tubot-5.1-official-20180110'." />
+                <option name="description" value="Displays the properties of root project 'Tubot-5.1-official-20180116'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1384,6 +1517,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/tobot" />
                 <option name="name" value="javaPreCompileDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare Tubot-5.1-official-20180116:RobotFrame:unspecified" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/tobot" />
+                <option name="name" value="prepareTubot51Official20180116RobotFrameUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build." />
@@ -1768,11 +1906,6 @@
                 <option name="name" value="prepareComAndroidSupportTestRunner05Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Tubot-5.1-official-20180110:RobotFrame:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/tobot" />
-                <option name="name" value="prepareTubot51Official20180110RobotFrameUnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/tobot" />
                 <option name="name" value="lintRelease" />
@@ -1931,7 +2064,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="H:\androidWork\Tubot-5.1-official-20180110" value="6062281143842" />
+        <entry key="H:\androidWork\Tubot-5.1-official-20180116" value="6064521340899" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2156,7 +2289,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="Tubot-5.1-official-20180110" />
+              <option name="name" value="Tubot-5.1-official-20180116" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/src/announce" />
@@ -2310,20 +2443,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java" />
+        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java" />
         <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java" />
-        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/AppTools.java" />
-        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/TobotApplication.java" />
+        <option value="$PROJECT_DIR$/tobot/build.gradle" />
+        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BScenario.java" />
+        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/VolumeScenario.java" />
         <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java" />
         <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java" />
-        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/IPort/IConnect.java" />
-        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BConnect.java" />
-        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Frequency.java" />
+        <option value="$PROJECT_DIR$/tobot/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/function/QASRFunction.java" />
+        <option value="$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BBattery.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1932" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -2351,12 +2488,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tubot-5.1-official-20180110" />
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2366,7 +2505,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tubot-5.1-official-20180110" />
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2376,21 +2515,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tubot-5.1-official-20180110" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tobot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tubot-5.1-official-20180110" />
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2401,14 +2526,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tobot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tubot-5.1-official-20180110" />
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2423,33 +2544,96 @@
               <option name="myItemId" value="tobot" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tobot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tobot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tubot-5.1-official-20180110" />
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tobot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tobot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRealize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tobot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tobot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tubot-5.1-official-20180116" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tubot-5.1-official" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bridge-official" />
     <property name="device.picker.selection" value="0123456789ABCDEF" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tobot.tobot.base" />
-      <recent name="com.tobot.tobot.scene" />
-    </key>
+    <property name="ExportApk.ApkPath" value="H:\" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
   </component>
   <component name="RunManager" selected="Android App.tobot">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2696,32 +2880,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eccf9e31-b7d2-43c3-ab27-7eb1f815f3f4" name="Default" comment="" />
-      <created>1516082243700</created>
+      <changelist id="f7dffae8-4442-4f87-89ce-853b12f98c65" name="Default" comment="" />
+      <created>1516161672068</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1516082243700</updated>
+      <updated>1516161672068</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6573661" sideWeight="0.49358973" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6573661" sideWeight="0.50641024" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2734,7 +2919,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2753,15 +2937,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19536">
-          <caret line="888" column="54" selection-start-line="888" selection-start-column="54" selection-end-line="888" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="4444">
+          <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/SitDownAndSleepTimeTask.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2771,109 +2959,305 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+        <state relative-caret-position="2640">
+          <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/UpgradeManger.java" />
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/VolumeScenario.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="522" column="24" selection-start-line="522" selection-start-column="24" selection-end-line="522" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="858">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2485">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="3872">
+          <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/DetectionVersions.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="54" column="125" selection-start-line="54" selection-start-column="125" selection-end-line="54" selection-end-column="125" />
+        <state relative-caret-position="17556">
+          <caret line="898" column="71" selection-start-line="898" selection-start-column="71" selection-end-line="898" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/AppTools.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/TobotApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/IPort/IConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="276" column="29" selection-start-line="276" selection-start-column="29" selection-end-line="276" selection-end-column="29" />
+        <state relative-caret-position="1430">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+        <state relative-caret-position="2640">
+          <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Frequency.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="858">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/build.gradle">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="990">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/SitDownAndSleepTimeTask.java">
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="3322">
+          <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11902">
+          <caret line="579" column="5" selection-start-line="579" selection-start-column="5" selection-end-line="579" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="894" column="0" selection-start-line="894" selection-start-column="0" selection-end-line="894" selection-end-column="0" />
+        <state relative-caret-position="1694">
+          <caret line="156" column="11" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11902">
+          <caret line="579" column="5" selection-start-line="579" selection-start-column="5" selection-end-line="579" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="149" column="51" selection-start-line="149" selection-start-column="51" selection-end-line="149" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/utils/TobotUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8275">
+          <caret line="548" column="25" selection-start-line="548" selection-start-column="25" selection-end-line="548" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/base/UpgradeManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1527">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/scene/VolumeScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/IPort/IBattery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Androidsdk-lo/sources/android-22/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="473" column="64" selection-start-line="473" selection-start-column="58" selection-end-line="473" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Androidsdk-lo/.android/build-cache/a6337a64f9eefbc3d14d49d503194c30df98192e/output/jars/classes.jar!/com/turing123/robotframe/multimodal/action/BodyActionCode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="290" column="62" selection-start-line="290" selection-start-column="62" selection-end-line="290" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/function/QASRFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="244" column="21" selection-start-line="244" selection-start-column="21" selection-end-line="244" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="116" column="36" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Androidsdk-lo/.android/build-cache/a6337a64f9eefbc3d14d49d503194c30df98192e/output/jars/classes.jar!/com/turing123/robotframe/function/bodystate/BodyState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tobot/src/main/java/com/tobot/tobot/presenter/BRealize/BBattery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding>
+            <element signature="e#4656#4657#0" expanded="true" />
+            <element signature="e#4688#4689#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

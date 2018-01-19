@@ -40,7 +40,7 @@ public class Constants {
 
 
     public static final int NOTIFICATION_MSG = 1;
-    public static final int START_SUCESS_MSG = 2;
+    public static final int START_SUCESS_MSG = 243;
     public static final int START_ERROR_MSG = 3;
     public static final int NET_MSG = 4;
     public static final int AWAIT_DORMANT = 5;
