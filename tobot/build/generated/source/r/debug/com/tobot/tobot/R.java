@@ -59,20 +59,18 @@ public final class R {
         public static final int expressionArray=0x7f0c0002;
         public static final int lieDownAndSleep_keyWorks_array=0x7f0c0003;
         public static final int lowerVolume_keyWords_array=0x7f0c0004;
-        public static final int nonUprightBoot=0x7f0c0005;
         /** 表情不可用:7 含羞,已找到表情
          */
-        public static final int onceTouchHead=0x7f0c0006;
-        public static final int photograph_keyWords_array=0x7f0c0007;
-        public static final int raiseVolume_keyWords_array=0x7f0c0008;
-        public static final int regardsArray=0x7f0c0009;
-        public static final int sitDownAndSleep_keyWorks_array=0x7f0c000a;
-        public static final int straightToSleep_keyWords_array=0x7f0c000b;
-        public static final int uprightBoot=0x7f0c000c;
+        public static final int onceTouchHead=0x7f0c0005;
+        public static final int photograph_keyWords_array=0x7f0c0006;
+        public static final int raiseVolume_keyWords_array=0x7f0c0007;
+        public static final int regardsArray=0x7f0c0008;
+        public static final int sitDownAndSleep_keyWorks_array=0x7f0c0009;
+        public static final int straightToSleep_keyWords_array=0x7f0c000a;
         /**  <item>音量</item>
         <item>声音</item>
          */
-        public static final int volume_keyWords_array=0x7f0c000d;
+        public static final int volume_keyWords_array=0x7f0c000b;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -2964,34 +2962,36 @@ containing a value of this type.
         public static final int noExistDance=0x7f070035;
         public static final int noExistMusic=0x7f070036;
         public static final int noExistStory=0x7f070037;
-        public static final int package_id=0x7f070038;
-        public static final int photograph_response=0x7f070039;
-        public static final int photograph_success_response=0x7f07003a;
-        public static final int playDanceInterrupt_response=0x7f07003b;
-        public static final int playMusicInterrupt_response=0x7f07003c;
-        public static final int playStoryInterrupt_response=0x7f07003d;
-        public static final int raiseMusicVolume=0x7f07003e;
-        public static final int sitDownAndSleep_Response=0x7f07003f;
-        public static final int sitDownAndSleep_awaken=0x7f070040;
-        public static final int status_bar_notification_info_overflow=0x7f070041;
-        public static final int straightToSleep_Response=0x7f070042;
-        public static final int straightToSleep_awaken=0x7f070043;
-        public static final int the_network_is_broken=0x7f070044;
-        public static final int title_activity_awaken=0x7f070045;
-        public static final int title_activity_base=0x7f070046;
-        public static final int tuneToTheLoudest=0x7f070047;
-        public static final int tuneToTheSmalleseVoice=0x7f070048;
-        public static final int voice0=0x7f070049;
-        public static final int voice1=0x7f07004a;
-        public static final int voice2=0x7f07004b;
-        public static final int voice3=0x7f07004c;
-        public static final int voice4=0x7f07004d;
-        public static final int voice5=0x7f07004e;
-        public static final int voice6=0x7f07004f;
-        public static final int voice7=0x7f070050;
-        public static final int voice8=0x7f070051;
-        public static final int voice9=0x7f070052;
-        public static final int wake_up_the_callback=0x7f070053;
+        public static final int nonUprightBoot=0x7f070038;
+        public static final int package_id=0x7f070039;
+        public static final int photograph_response=0x7f07003a;
+        public static final int photograph_success_response=0x7f07003b;
+        public static final int playDanceInterrupt_response=0x7f07003c;
+        public static final int playMusicInterrupt_response=0x7f07003d;
+        public static final int playStoryInterrupt_response=0x7f07003e;
+        public static final int raiseMusicVolume=0x7f07003f;
+        public static final int sitDownAndSleep_Response=0x7f070040;
+        public static final int sitDownAndSleep_awaken=0x7f070041;
+        public static final int status_bar_notification_info_overflow=0x7f070042;
+        public static final int straightToSleep_Response=0x7f070043;
+        public static final int straightToSleep_awaken=0x7f070044;
+        public static final int the_network_is_broken=0x7f070045;
+        public static final int title_activity_awaken=0x7f070046;
+        public static final int title_activity_base=0x7f070047;
+        public static final int tuneToTheLoudest=0x7f070048;
+        public static final int tuneToTheSmalleseVoice=0x7f070049;
+        public static final int uprightBoot=0x7f07004a;
+        public static final int voice0=0x7f07004b;
+        public static final int voice1=0x7f07004c;
+        public static final int voice2=0x7f07004d;
+        public static final int voice3=0x7f07004e;
+        public static final int voice4=0x7f07004f;
+        public static final int voice5=0x7f070050;
+        public static final int voice6=0x7f070051;
+        public static final int voice7=0x7f070052;
+        public static final int voice8=0x7f070053;
+        public static final int voice9=0x7f070054;
+        public static final int wake_up_the_callback=0x7f070055;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f090074;

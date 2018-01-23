@@ -1,58 +1,58 @@
 [
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\snackbar_in.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\fab_out.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\snackbar_out.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\snackbar_out.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\fab_in.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180116\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\fab_out.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\anim\\snackbar_in.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     }
 ]

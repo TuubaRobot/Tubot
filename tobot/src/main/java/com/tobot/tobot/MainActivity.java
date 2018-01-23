@@ -65,7 +65,9 @@ import com.turing123.robotframe.multimodal.action.BodyActionCode;
 import com.turing123.robotframe.multimodal.action.EarActionCode;
 import com.turing123.robotframe.multimodal.expression.EmojNames;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
@@ -157,6 +159,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
         TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
         Log("设备id:"+tm.getDeviceId()+"MAC地址:"+TobotUtils.getMacAddress());
 
+
     }
 
     //联网
@@ -217,10 +220,6 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //                                    BFrame.isInterrupt = true;//可打断//20171226注释一直停留在打断
                                     //mohuaiyuan 20180111 原来的代码
                                     mBFrame.Ear(EarActionCode.EAR_MOTIONCODE_2);//发声效果
-                                    //mohuaiyuan 20180115 新的代码 20180115
-//                                    BFrame.Ear(6);
-//                                    Log("发声效果  灯圈 2 绿色常亮。。。");
-                                    Log("发声效果  灯圈 。。。");
                                     activeTimer.cancel();
                                     activeTimer = new Timer();
                                 }
@@ -238,14 +237,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //                                BFrame.prevent = false;
 //                                BFrame.isInterrupt = false;//不可打断//20171229考虑到全局tts已自主控制,asr不在暂停
                                 String asrContent = packet.getString("arg2");
-                                //mohuaiyuan 20180111 原来的代码
                                 mBFrame.Ear(EarActionCode.EAR_MOTIONCODE_3);//录音效果
-                                //mohuaiyuan 20180115 新的代码 20180115
-//                                BFrame.Ear(6);
-//                                Log("录音效果  灯圈 6 橙色常亮。。。");
-//                                BFrame.Ear(8);
-                                Log("录音效果  灯圈 。。。");
-
                                 if(packet.getInt("arg1") == 4){
                                     if(asrContent.contains("没有检查到网络")) {
                                         if (!hintConnect) {
@@ -261,8 +253,6 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                         //等待主动交互
                                         activeTimer.cancel();
                                         activeTimer = new Timer();
-
-
                                     }
                                     if(hintConnect){//断网收到语音提示-->离线语音
                                         //mohuaiyuan 20171220 原来的代码
@@ -303,7 +293,6 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                         Log.e("IDormant", "摸头唤醒 之后 回调，出现Exception e : "+e.getMessage());
                                         e.printStackTrace();
                                     }
-
                                 }
                                 break;
                         }
@@ -496,8 +485,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                 BFrame.TTS("当前的灯圈颜色是 ："+currentEar);
                                 BFrame.Ear(Integer.valueOf(currentEar));
                                 earList.remove(index);*/
-
-
+								
                                     //mohuaiyuan 20180104 测试 获取音量
                                     // AudioUtils audioUtils=new AudioUtils(mContext);
                                     // int currentVolume=audioUtils.getCurrentVolume();
@@ -509,6 +497,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
 
                                     //mohuaiyuan  20171225 测试 表情 序号
+									
                                /* if (expressionList==null){
                                     expressionList=new ArrayList<>();
                                     String []expressionArray=mContext.getResources().getStringArray(R.array.expressionArray);
@@ -525,7 +514,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                 BFrame.Facial(currentExpression);
 
                                 expressionList.remove(index);*/
-
+								
                                 }
                             } catch (Exception e) {
                                 e.printStackTrace();
@@ -615,7 +604,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
             //等待睡眠
             dormantTimer.cancel();
             dormantTimer = new Timer();
-            dormantTimer.schedule(new DormantTimerTask(),3000000);//等待5分钟进入休眠
+            dormantTimer.schedule(new DormantTimerTask(),300000);//等待5分钟进入休眠
         }
     }
 
@@ -655,14 +644,15 @@ public class MainActivity extends BaseActivity implements ISceneV {
     @OnClick(R.id.btn_shutdown1)
     public void shutdown1(){
        //下发动作
-//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //        Log("动作下发时间..1...:"+dateFormat.format(new Date()));
 //        motor.doAction(Action.buildEarAction(EarActionCode.EAR_MOTIONCODE_0,PRMTYPE_EXECUTION_TIMES,1),new SimpleFrameCallback());
 
         //发送注册
 //        manager.sendMsg(Transform.HexString2Bytes(Joint.setRegister()));
 //        manager.demandDance();
-
+        Log("按下时间戳:"+TobotUtils.getTransform());
+        Log("按下时间:"+dateFormat.format(new Date()));
 //        bindRobot();
 
 //        StartOtherApplications();
@@ -674,7 +664,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
 //        BFrame.getmBLocal().carryThrough("");
 
-        mBFrame.FallAsleep();
+//        mBFrame.FallAsleep();
 
     }
 
@@ -817,7 +807,6 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
     private void eliminate() {
         try {
-
                 String time1 = UserDBManager.getManager().getCurrentUser().getRequestTime();
                 String time2 = TobotUtils.getCurrentlyDate();
                 long date = TobotUtils.DateMinusTime(time1, time2);
@@ -847,7 +836,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
         }
     }
 
-
+	
 //asr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

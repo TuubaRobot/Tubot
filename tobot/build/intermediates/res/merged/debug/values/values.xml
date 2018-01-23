@@ -68,9 +68,6 @@
     <string-array name="lowerVolume_keyWords_array">
 
     </string-array>
-    <string-array name="nonUprightBoot">
-        speech:哎呀，终于站起来了。主人，%1$s，我已联网，现在可以和我聊天了！#,#action:21#,#expression:boring#,#earLightCircle:4
-    </string-array>
     <string-array name="onceTouchHead">
         <item>speech:可以跟我聊天，不要乱摸头#,#action:1#,#expression:naughtys</item><!--表情：6- 调皮-->
         <item>speech:不要一直摸人家的头，会变笨的#,#action:1#,#expression:calm</item><!--表情不可用:22-尴尬 -->
@@ -106,9 +103,6 @@
         <item>能不能别说话</item>
         <item>不要说话</item>
         <item>安静点</item>
-    </string-array>
-    <string-array name="uprightBoot">
-        speech:主人，%1$s，我已联网，现在可以和我聊天了！#,#action:1#,#expression:happys#,#earLightCircle:4
     </string-array>
     <string-array name="volume_keyWords_array">
         <item>声音大一点</item>
@@ -490,7 +484,7 @@
     <string name="Connection_First">机器人首次使用中,还未连接网络,请下载客户端根据说明帮我连接网络</string>
     <string name="Connection_Recover">@string/Connection_Succeed</string>
     <string name="Connection_Start">speech:联网模式已开启，请打开手机app帮我联网，或摸头3秒退出联网#,#action:46#,#expression:calm#,#earLightCircle:6</string>
-    <string name="Connection_Succeed">speech:联网成功，我们可以愉快的聊天了。#,#action:72#,#expression:excites</string>
+    <string name="Connection_Succeed">speech:联网成功，我们可以愉快的聊天了。#,#action:72#a_a#1#,#expression:excites</string>
     <string name="Connection_Wait">联网中,请稍等</string>
     <string name="Mend_Error">如果你能改正错误,我们还是好朋友</string>
     <string name="Upgrade_prompt">系统升级中,请耐心等待,稍后将自行重启</string>
@@ -531,7 +525,7 @@
     <string name="endRemoteControlMode_response">speech:已退出遥控模式</string>
     <string name="error_wakeup_init">wake up service init fail.</string>
     <string name="getCurrentVolume">speech:当前音量为%1$s</string>
-    <string name="lieDownAndSleep_Response">speech:那我去睡觉了，你可以叫“小图小图”或者摸头叫醒我#,#action:10#,#expression:doze#,#earLightCircle:0</string>
+    <string name="lieDownAndSleep_Response">speech:那我去睡觉了，你可以叫“小图小图”或者摸头叫醒我#,#action:10#,#expression:doze#,#earLightCircle:1</string>
     <string name="lieDownAndSleep_awaken">speech:啊！我睡醒了，地板好冷，小图都快感冒了#,#action:11#,#expression:happys</string>
     <string name="lowerMusicVolume">speech:好的，音量已经条到%1$s </string>
     <string name="maxMusicVolume">speech:已经是最大声了</string>
@@ -539,6 +533,7 @@
     <string name="noExistDance">speech:糟糕，这个舞蹈我还没学会，要不我给你换一个吧。#,#action:93</string>
     <string name="noExistMusic">speech:糟糕，这首歌唱不出来了，要不我给你换一首吧。#,#action:93</string>
     <string name="noExistStory">speech:糟糕，这个故事我没学会，要不我给你换一个吧。#,#action:85</string>
+    <string name="nonUprightBoot">speech:哎呀，终于站起来了。主人，%1$s，我已联网，现在可以和我聊天了！#,#action:21#,#expression:boring#,#earLightCircle:4</string>
     <string name="package_id">com.tobot.tobot</string>
     <string name="photograph_response">speech:好的，请站在我前面，摆好姿势。一二三，茄子！#,#action:39</string>
     <string name="photograph_success_response">speech:拍照成功，你可以到手机App查看照片啦！#,#action:1</string>
@@ -546,16 +541,17 @@
     <string name="playMusicInterrupt_response"/>
     <string name="playStoryInterrupt_response"/>
     <string name="raiseMusicVolume">speech:好的，音量已经条到%1$s </string>
-    <string name="sitDownAndSleep_Response">speech:那我去休息了，你可以叫“小图小图”或者摸头叫醒我#,#action:8#,#expression:doze</string>
+    <string name="sitDownAndSleep_Response">speech:那我去休息了，你可以叫“小图小图”或者摸头叫醒我#,#action:8#,#expression:doze#,#earLightCircle:1</string>
     <string name="sitDownAndSleep_awaken">speech:是不是想我了，快来和我聊天吧#,#action:9#,#expression:excites</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="straightToSleep_Response">speech:我休息会，想和我说话你可以叫“小图小图”或者摸头叫我#,#action:1#,#expression:doze</string>
-    <string name="straightToSleep_awaken">speech:主人，是不是想我了，现在可以和我聊天啦#,#action:82#,#expression:happys#,#earLightCircle:2</string>
+    <string name="straightToSleep_Response">speech:我休息会，想和我说话你可以叫“小图小图”或者摸头叫我#,#expression:doze#,#earLightCircle:1</string>
+    <string name="straightToSleep_awaken">speech:主人，是不是想我了，现在可以和我聊天啦#,#expression:happys#,#earLightCircle:2</string>
     <string name="the_network_is_broken">speech:网络断了，请摸头3秒重新帮我联网！#,#action:30#,#expression:disappointed#,#earLightCircle:6</string>
     <string name="title_activity_awaken">AwakenActivity</string>
     <string name="title_activity_base">BaseActivity</string>
     <string name="tuneToTheLoudest">speech:好的，已经条到最大声了</string>
     <string name="tuneToTheSmalleseVoice">speech:好的，已经条到最小声了</string>
+    <string name="uprightBoot">speech:主人，%1$s，我已联网，现在可以和我聊天了！#,#action:1#,#expression:happys#,#earLightCircle:4</string>
     <string name="voice0">小子,你再摸下试试</string>
     <string name="voice1">嘿,小子,你再摸,小心我揍你</string>
     <string name="voice2">能不能别老摸我</string>

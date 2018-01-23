@@ -40,7 +40,7 @@ public class Constants {
 
 
     public static final int NOTIFICATION_MSG = 1;
-    public static final int START_SUCESS_MSG = 243;
+    public static final int START_SUCESS_MSG = 2;
     public static final int START_ERROR_MSG = 3;
     public static final int NET_MSG = 4;
     public static final int AWAIT_DORMANT = 5;
@@ -96,6 +96,6 @@ public class Constants {
     public static final int SitBack_stand = 15;
     public static final int SideDown_stand = 29;
 
-    public static final String KIND_KEY="kind";
+    public static final String KIND_KEY = "kind";
 
 }

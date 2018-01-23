@@ -29,8 +29,10 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Enumeration;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Random;
 import java.util.regex.Matcher;
@@ -210,9 +212,56 @@ public class TobotUtils {
         }
     }
 
+    /**
+     * 获取当前时间戳
+     * @return
+     */
+    public static String getTransform() {
+        return String.valueOf(System.currentTimeMillis());
+    }
 
     /**
-     * 获取当前日期 格式：yyyy/MM/dd HH:mm:ss
+     * 时间戳转换
+     * @param time
+     * @return
+     */
+    public static String transformDateTime(long time) {
+        Date date = new Date(time);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return dateFormat.format(date);
+    }
+
+    /**
+     * 时间戳转换
+     * @param time
+     * @return
+     */
+    public static String transformDateTime(String time) {
+        Date date = new Date(new Long(time));
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return dateFormat.format(date);
+    }
+
+//    /**
+//     *
+//     * @param time
+//     * @return
+//     */
+//    public static String DateTuanTime(String time) {
+//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        SimpleDateFormat sfd = new SimpleDateFormat("yyyyMMddHHmmss");
+//        Date date = new Date();
+//        try {
+//            date = sfd.parse(time);
+//        } catch (ParseException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
+//        return dateFormat.format(date);
+//    }
+
+    /**
+     * 获取当前日期 格式：yyyy-MM-dd HH:mm:ss
      * @return
      */
     public static String getCurrentlyDate() {
@@ -227,6 +276,9 @@ public class TobotUtils {
      * @return
      */
     public static long DateMinusTime(String time1, String time2) {
+        return DateMinusTime(time1,time2,(1000 * 60 * 60 * 24 * 7));//24小时 *7天
+    }
+    public static long DateMinusTime(String time1, String time2, long time){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date d1 = new Date();
         Date d2 = new Date();
@@ -238,8 +290,37 @@ public class TobotUtils {
             e.printStackTrace();
         }
         long diff = d2.getTime() - d1.getTime();// 这样得到的差值是微秒级别
-        long days = diff / (1000 * 60 * 60 * 24 * 7);//24小时 *7天
+        long days;
+        if (time != 0) {
+            days = diff / time;
+        }else {
+            days = diff;
+        }
         return days;
+    }
+
+    /**
+     * 增加time秒
+     * @param time
+     * @return
+     */
+    public static String DateAddTime(String time1,int time){
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Calendar calendar = new GregorianCalendar();
+        Date date;
+        try {
+            calendar.setTime(dateFormat.parse(time1));//设置参数时间
+            Log.i("Javen","时间转换无误"+calendar.getTime());
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            Log.i("Javen","时间转换错误");
+            e.printStackTrace();
+        }
+        calendar.add(Calendar.SECOND,time);//把日期往后增加SECOND 秒.整数往后推,负数往前移动
+        date = calendar.getTime();
+        String diff = dateFormat.format(date);//字符型
+//        long diff = calendar.getTime().getTime(); //long型
+        return diff;
     }
 
 

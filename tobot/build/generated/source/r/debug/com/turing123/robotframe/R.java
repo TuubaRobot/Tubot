@@ -652,7 +652,7 @@ public final class R {
         public static final int abc_toolbar_collapse_description = 0x7f07001d;
         public static final int app_name = 0x7f07001f;
         public static final int error_wakeup_init = 0x7f07002e;
-        public static final int status_bar_notification_info_overflow = 0x7f070041;
+        public static final int status_bar_notification_info_overflow = 0x7f070042;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f090074;
