@@ -660,4 +660,36 @@ public class TobotUtils {
         return macAddress;
     }
 
+    public static Integer getTimeIndex() {
+        Calendar c = Calendar.getInstance();// 可以对每个时间域单独修改
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH);
+        int date = c.get(Calendar.DATE);
+        int hour = c.get(Calendar.HOUR_OF_DAY);
+        int minute = c.get(Calendar.MINUTE);
+        int second = c.get(Calendar.SECOND);
+        System.out.println(year + "/" + month + "/" + date + " " + hour + ":"
+                + minute + ":" + second);
+
+        int index = 0;
+        int minutes = hour * 60 + minute;
+        System.out.println("minutes:" + minutes);
+        String str = "";
+        if (minutes > 360 && minutes < 661) {
+            str = "早上";
+            index = 0;
+        } else if (minutes > 660 && minutes < 841) {
+            str = "中午";
+            index = 1;
+        } else if (minutes > 840 && minutes < 1111) {
+            str = "下午";
+            index = 2;
+        } else {
+            str = "晚上";
+            index = 3;
+        }
+
+        return index;
+    }
+
 }

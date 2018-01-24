@@ -1,10 +1,18 @@
 [
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

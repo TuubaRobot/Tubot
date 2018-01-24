@@ -170,12 +170,21 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //        if (TobotUtils.isEmployFack()){
 //            //首次使用提示语,动作等
 //        }
+
+       //mohuaiyuan 20180123 新的代码 20180123
+       onBle();
+
        if (AppTools.netWorkAvailable(this) && !isInitiativeOff && !whence) {//自动联网成功
            mCloud = new Cloud(this, new MainScenarioCallback());
            //mohuaiyuan 20171221 新的代码 20171221
            Map<String,String> map=null;
            try {
-               map=BFrame.getString(R.string.Connection_Succeed);
+//               map=BFrame.getString(R.string.Connection_Succeed);
+               int index =TobotUtils.getTimeIndex();
+               Log.d(TAG, "Time index: "+index);
+               String[] regardsArray = mContext.getResources().getStringArray(R.array.regardsArray);
+               String line = BFrame.getString(R.string.uprightBoot, regardsArray[index]);
+               map = BFrame.getString(line);
            } catch (Exception e) {
                e.printStackTrace();
            }
@@ -293,6 +302,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                         Log.e("IDormant", "摸头唤醒 之后 回调，出现Exception e : "+e.getMessage());
                                         e.printStackTrace();
                                     }
+
                                 }
                                 break;
                         }
@@ -408,17 +418,19 @@ public class MainActivity extends BaseActivity implements ISceneV {
 //                        }
 //                        BFrame.isInterrupt = false;//不可打断
 //                        BFrame.prevent = false;
-                        } else {
-                            Log("触摸--调侃聊天");
-                            try {
-                                long l = (System.currentTimeMillis() - exitTime);
-                                if (l < 4000) {//连续点击
-                                    Log("触摸--连续点击");
-
-//                                onBle();
-
-                                    //mohuaiyuan 20171228 新的代码 新增的代码
-                                    exitTime = 0;
+                    } else {
+                        Log("触摸--调侃聊天");
+                        Log.d("helloworld", "触摸--调侃聊天: ");
+                        try {
+                            long l = (System.currentTimeMillis() - exitTime);
+                            if (l < 4000) {//连续点击
+                                Log("触摸--连续点击");
+                                Log.d("helloworld", "触摸--连续点击: ");
+								
+                                onBle();
+																
+                                //mohuaiyuan 20171228 新的代码 新增的代码
+                                exitTime = 0;
 
                                     //mohuaiyuan 20171220 新的代码 新增的代码
                                     MyTouchResponse myTouchResponse=new MyTouchResponse(mContext);
@@ -434,7 +446,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
                                     BaseTTSCallback baseTTSCallback=new BaseTTSCallback(){
                                         @Override
                                         public void onCompleted() {
-                                            TobotUtils.getIPAddress(mContext);//播报ip
+//                                            TobotUtils.getIPAddress(mContext);//播报ip
                                         }
                                     };
                                     BFrame.setInterruptTTSCallback(new InterruptTTSCallback(this,baseTTSCallback));
@@ -497,7 +509,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
 
 
                                     //mohuaiyuan  20171225 测试 表情 序号
-									
+
                                /* if (expressionList==null){
                                     expressionList=new ArrayList<>();
                                     String []expressionArray=mContext.getResources().getStringArray(R.array.expressionArray);
@@ -644,15 +656,14 @@ public class MainActivity extends BaseActivity implements ISceneV {
     @OnClick(R.id.btn_shutdown1)
     public void shutdown1(){
        //下发动作
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //        Log("动作下发时间..1...:"+dateFormat.format(new Date()));
 //        motor.doAction(Action.buildEarAction(EarActionCode.EAR_MOTIONCODE_0,PRMTYPE_EXECUTION_TIMES,1),new SimpleFrameCallback());
 
         //发送注册
 //        manager.sendMsg(Transform.HexString2Bytes(Joint.setRegister()));
 //        manager.demandDance();
-        Log("按下时间戳:"+TobotUtils.getTransform());
-        Log("按下时间:"+dateFormat.format(new Date()));
+
 //        bindRobot();
 
 //        StartOtherApplications();
@@ -836,7 +847,7 @@ public class MainActivity extends BaseActivity implements ISceneV {
         }
     }
 
-	
+
 //asr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

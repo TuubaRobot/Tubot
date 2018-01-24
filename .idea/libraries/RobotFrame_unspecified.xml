@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="RobotFrame-unspecified">
     <CLASSES>
-      <root url="jar://H:/Androidsdk-lo/.android/build-cache/8abff6cfeff469d44e78fe7d9e0247d48ea8725f/output/jars/classes.jar!/" />
-      <root url="file://H:/Androidsdk-lo/.android/build-cache/8abff6cfeff469d44e78fe7d9e0247d48ea8725f/output/res" />
+      <root url="file://H:/Androidsdk-lo/.android/build-cache/a2ab6d8a71ff52d7be14e7a3ffc41ed8e43d29b3/output/res" />
+      <root url="jar://H:/Androidsdk-lo/.android/build-cache/a2ab6d8a71ff52d7be14e7a3ffc41ed8e43d29b3/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

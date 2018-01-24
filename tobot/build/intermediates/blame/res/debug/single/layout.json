@@ -1,198 +1,394 @@
 [
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\bluetoothdevice_item_layout.xml",
-        "source": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\src\\main\\res\\layout\\bluetoothdevice_item_layout.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\layout_snackbar_include.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\layout_snackbar.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout.xml",
-        "source": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\src\\main\\res\\layout\\item_layout.xml"
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\layout_snackbar_include.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_awaken.xml",
-        "source": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\src\\main\\res\\layout\\activity_awaken.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "H:\\androidWork\\Tubot\\tobot\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\layout_snackbar.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "H:\\androidWork\\Tubot-5.1-official-20180119\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scenario.xml",
-        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\8abff6cfeff469d44e78fe7d9e0247d48ea8725f\\output\\res\\layout\\activity_scenario.xml"
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\bluetoothdevice_item_layout.xml",
+        "source": "H:\\androidWork\\Tubot\\tobot\\src\\main\\res\\layout\\bluetoothdevice_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scenario.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\2d0dadb5a37a097c2ea9d6155e0ad85160b9dd8a\\output\\res\\layout\\activity_scenario.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_awaken.xml",
+        "source": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\src\\main\\res\\layout\\activity_awaken.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout.xml",
+        "source": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\src\\main\\res\\layout\\item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\layout_snackbar.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_awaken.xml",
+        "source": "H:\\androidWork\\Tubot\\tobot\\src\\main\\res\\layout\\activity_awaken.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\bluetoothdevice_item_layout.xml",
+        "source": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\src\\main\\res\\layout\\bluetoothdevice_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scenario.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\a2ab6d8a71ff52d7be14e7a3ffc41ed8e43d29b3\\output\\res\\layout\\activity_scenario.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout.xml",
+        "source": "H:\\androidWork\\Tubot\\tobot\\src\\main\\res\\layout\\item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\c845a51456290d9fde5935839429a9aa378128eb\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "H:\\androidWork\\Tubot-5.1-official-20180124\\tobot\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "H:\\Androidsdk-lo\\.android\\build-cache\\e7ce6c47e7d9861bd738dbaa350f883a44bf4ecc\\output\\res\\layout\\abc_activity_chooser_view.xml"
     }
 ]
